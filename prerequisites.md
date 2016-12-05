@@ -1,5 +1,5 @@
 <!-- TITLE: Prerequisites -->
-<!-- SUBTITLE: A quick summary of Prerequisites -->
+<!-- SUBTITLE: Requirements to run Requarks Wiki. -->
 
 Requarks Wiki is cross-platform (Windows, Linux and Mac) and does not depend on any paid commercial product / service.
 
