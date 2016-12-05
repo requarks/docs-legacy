@@ -32,8 +32,8 @@ The following modern browsers are supported:
 
 - Google Chrome
 - Mozilla Firefox
-- Microsoft Internet Explorer 10, 11
 - Microsoft Edge
+- Microsoft Internet Explorer 10, 11
 - Apple Safari
 - Opera
 
