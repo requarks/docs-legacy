@@ -1,9 +1,9 @@
 <!-- TITLE: Prerequisites -->
 <!-- SUBTITLE: Requirements to run Requarks Wiki. -->
 
-Requarks Wiki is cross-platform (Windows, Linux and Mac) and does not depend on any paid commercial product / service.
+Wiki.js is cross-platform (Windows, Linux and Mac) and does not depend on any paid commercial product / service.
 
-While Requarks Wiki runs on pretty much any platform that supports the requirements below, the following environments are recommended and more thoroughly tested:
+While Wiki.js runs on pretty much any platform that supports the requirements below, the following environments are recommended and more thoroughly tested:
 
 - Ubuntu Server 14.04 LTS / 16.04 LTS
 - Windows Server 2012 R2
@@ -38,5 +38,5 @@ The following modern browsers are supported:
 
 > :no_entry_sign: **Unsupported Browsers**
 > 
-> Internet Explorer 9 and below are not supported. Requarks Wiki makes heavy use of the latest HTML / CSS / JS standards, which simply doesn't work in these browsers.
+> Internet Explorer 9 and below are not supported. Wiki.js makes heavy use of the latest HTML / CSS / JS standards, which simply doesn't work in these browsers.
 {.is-danger}
