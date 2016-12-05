@@ -13,7 +13,7 @@ While Requarks Wiki runs on pretty much any platform that supports the requireme
 
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
 
-**Node.js `v.4.6.0` or later is required. **
+**Node.js** `v.4.6.0` **or later is required.**
 
 - [Official Website](https://nodejs.org/)
 
