@@ -5,8 +5,6 @@ Requarks Wiki supports 4 types of authentication providers. You may choose to us
 
 > :warning: You must have at least 1 provider enabled as edits can only be performed while authenticated.
 {.is-warning}
-> - Test
-> - Test
 # Local
 The local provider stores user accounts in the wiki database. It does not rely on any 3rd party service and accounts are unique to your wiki.
 
