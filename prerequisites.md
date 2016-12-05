@@ -1,5 +1,5 @@
 <!-- TITLE: Prerequisites -->
-<!-- SUBTITLE: Requirements to run Requarks Wiki. -->
+<!-- SUBTITLE: Requirements to run Wiki.js -->
 
 Wiki.js is cross-platform (Windows, Linux and Mac) and does not depend on any paid commercial product / service.
 
