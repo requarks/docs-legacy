@@ -10,8 +10,11 @@ While Requarks Wiki runs on pretty much any platform that supports the requireme
 
 # Requirements
 ## Node.js
-- Node.js `v.4.6.0` or later
-	- [Official Website](https://nodejs.org/)
+Node.js `v.4.6.0` or later is required.
+
+- [Official Website](https://nodejs.org/)
+
+If you are running Linux, you can [install Node.js using the package manager](https://nodejs.org/en/download/package-manager/).
 
 ## MongoDB
 - MongoDB `v.3.2` or later
