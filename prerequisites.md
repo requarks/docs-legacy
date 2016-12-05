@@ -8,6 +8,7 @@ While Requarks Wiki runs on pretty much any platform that supports the requireme
 - Ubuntu Server 14.04 LTS / 16.04 LTS
 - Windows Server 2012 R2
 
+:point_right:
 # Requirements
 ## Node.js
 
