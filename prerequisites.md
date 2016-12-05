@@ -21,3 +21,6 @@ The following modern browsers are supported:
 - Microsoft Edge
 - Apple Safari
 - Opera
+
+### Unsupported Browsers
+Internet Explorer 9 and below are not supported. Requarks Wiki makes heavy use of the latest HTML / CSS / JS standards, which simply doesn't work in these browsers.
