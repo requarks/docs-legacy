@@ -20,9 +20,12 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js 
 If you are running Linux, you can [install Node.js using the package manager](https://nodejs.org/en/download/package-manager/).
 
 ## MongoDB
-MongoDB `v.3.2` or later is required.
+MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.
 
+**MongoDB** `v.3.2` **or later is required.**
 
+- [Official Website](https://www.mongodb.com/)
+- [Installation Guide](https://docs.mongodb.com/manual/administration/install-community/)
 
 # End User Requirements
 The following modern browsers are supported:
