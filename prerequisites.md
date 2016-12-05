@@ -13,7 +13,7 @@ While Requarks Wiki runs on pretty much any platform that supports the requireme
 
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
 
-:small_blue_diamond: **Node.js** `4.6.0` **or later is required.**
+:point_right: **Node.js** `4.6.0` **or later is required.**
 
 - [Official Website](https://nodejs.org/)
 
@@ -22,7 +22,7 @@ If you are running Linux, you can [install Node.js using the package manager](ht
 ## MongoDB
 MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.
 
-:small_blue_diamond: **MongoDB** `3.2` **or later is required.**
+:point_right: **MongoDB** `3.2` **or later is required.**
 
 - [Official Website](https://www.mongodb.com/)
 - [Installation Guide](https://docs.mongodb.com/manual/administration/install-community/)
