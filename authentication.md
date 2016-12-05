@@ -4,7 +4,10 @@
 Wiki.js supports multiple authentication providers. You may choose to enable one, some or even all of them.
 
 > :warning: You must have at least 1 provider enabled as edits can only be performed while authenticated.
-{.is-warning}
+{.is-success}
+
+> :warning: You must have at least 1 provider enabled as edits can only be performed while authenticated.
+{.is-info}
 # Local
 The local provider stores user accounts in the wiki database. It does not rely on any 3rd party service and accounts are unique to your wiki.
 
