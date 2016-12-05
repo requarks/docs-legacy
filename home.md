@@ -1,5 +1,5 @@
-<!-- TITLE: Requarks Wiki -->
-<!-- SUBTITLE: Documentation on installing, managing and using Requarks Wiki -->
+<!-- TITLE: Wiki.js -->
+<!-- SUBTITLE: Documentation on installing, managing and using Wiki.js -->
 
 # Overview
 - [Features](features)
