@@ -13,14 +13,16 @@ While Requarks Wiki runs on pretty much any platform that supports the requireme
 
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
 
-Node.js `v.4.6.0` or later is required. 
+**Node.js `v.4.6.0` or later is required. **
 
 - [Official Website](https://nodejs.org/)
 
 If you are running Linux, you can [install Node.js using the package manager](https://nodejs.org/en/download/package-manager/).
 
 ## MongoDB
-- MongoDB `v.3.2` or later
+MongoDB `v.3.2` or later is required.
+
+
 
 # End User Requirements
 The following modern browsers are supported:
