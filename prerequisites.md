@@ -9,8 +9,8 @@ While Requarks Wiki runs on pretty much any platform that supports the requireme
 - Windows Server 2012 R2
 
 # Requirements
-Node.js `v.4.6.0` or later
-MongoDB `v.3.2` or later
+- Node.js `v.4.6.0` or later
+- MongoDB `v.3.2` or later
 
 # End User Requirements
 The following modern browsers are supported:
