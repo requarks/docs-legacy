@@ -9,6 +9,7 @@ While Wiki.js runs on pretty much any platform that supports the requirements be
 - Ubuntu Server 14.04 LTS / 16.04 LTS
 - Windows Server 2012 R2
 # Requirements
+
 ## Node.js
 
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
