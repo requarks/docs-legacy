@@ -10,19 +10,9 @@ While Wiki.js runs on pretty much any platform that supports the requirements be
 # Requirements
 ## Node.js
 
-Test content
-
-### Test Title
-
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
 
 :information_source: **Node.js** `4.6.0` **or later is required.**
-
-```
-Super test
-```
-
-### Another test title
 
 - [Official Website](https://nodejs.org/)
 
