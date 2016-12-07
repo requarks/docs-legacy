@@ -8,6 +8,7 @@ While Wiki.js runs on pretty much any platform that supports the requirements be
 
 - Ubuntu Server 14.04 LTS / 16.04 LTS
 - Windows Server 2012 R2
+
 # Requirements
 
 ## Node.js
