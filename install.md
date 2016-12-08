@@ -28,7 +28,8 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 You can now start Wiki.js and make sure everything runs smoothly:
 
 7. In a command prompt, **run** the following command: `node server.js`
-	- Wait for the server to initialize. No error(s) should appear and you should have the 2 following lines (among other info):
+	- Wait for the server to initialize. Wiki.js uses 2 separate processes, identified by `[SERVER]` and `[AGENT]` in the logs.
+	- Make sure no errors appear and that you have the following 2 lines:
 		- `[SERVER] HTTP/WS server started successfully! [RUNNING]`
 		- `[AGENT] All jobs completed successfully! Going to sleep for now.`
 8. 
