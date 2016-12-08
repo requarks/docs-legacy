@@ -32,4 +32,14 @@ You can now start Wiki.js and make sure everything runs smoothly:
 	- Make sure no errors appear and that you have the following 2 lines:
 		- `[SERVER] HTTP/WS server started successfully! [RUNNING]`
 		- `[AGENT] All jobs completed successfully! Going to sleep for now.`
-8. 
+8. Now that you know that the server runs fine, **kill** the server sending key combination `CTRL-C` twice.
+	- Why? Because we are not going to actually run the server this way. We were only making sure it runs without error.
+
+# Run as a service
+We'll now configure Wiki.js to run as a background service using pm2.
+
+>[pm2](http://pm2.keymetrics.io/) is a process manager for Node.js applications. It runs applications in the background, restarts them automatically if a crash occurs, save logs to file and most importantly, starts the apps back after a system reboot.
+
+9. Still in a command prompt, **install pm2** by running the following command: `npm install -g pm2`
+	 - Wait for the installation to complete.
+10. 
