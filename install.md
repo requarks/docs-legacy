@@ -19,6 +19,7 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 	- On Mac, launch the **Terminal** application and jump to the Wiki.js folder using the **cd** command. *e.g.* `cd /Library/WebServer/Documents/wiki`
 4. **Wait** for the dependencies installation to finish. If you see any error(s) in red, make sure you fix them first. Wiki.js will most likely crash or refuse to start if all dependencies are not properly installed. Note that you can safely ignore warnings (in yellow).
 	- If you get errors related to `node-gyp`, make sure you have the necessary build tools as explained in the [prerequisites](prerequisites) page!
+
 # Configure
 5. **Rename** the file `config.sample.yml` to `config.yml`
 	- If you are upgrading, do not replace your existing `config.yml` file!
@@ -38,8 +39,7 @@ You can now start Wiki.js and make sure everything runs smoothly:
 # Run as a service
 We'll now configure Wiki.js to run as a background service using pm2.
 
->[pm2](http://pm2.keymetrics.io/) is a process manager for Node.js applications. It runs applications in the background, restarts them automatically if a crash occurs, save logs to file and most importantly, starts the apps back after a system reboot.
+[pm2](http://pm2.keymetrics.io/) is a process manager for Node.js applications. It runs applications in the background, restarts them automatically if a crash occurs, save logs to file and most importantly, starts the apps back after a system reboot.
 
 9. Still in a command prompt, **install pm2** by running the following command: `npm install -g pm2`
 	 - Wait for the installation to complete.
-10. 
