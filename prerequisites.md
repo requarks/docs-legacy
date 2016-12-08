@@ -28,7 +28,7 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js 
 
 ## Node.js native compilation support
 
-Your system must be able to compile node addons in order to install Wiki.js dependencies:
+Your system must be able to compile native Node.js addons in order to successfully install Wiki.js dependencies:
 
 - On **Ubuntu/Debian Linux**: `sudo apt-get install -y build-essential`
 - On **RedHat/CentOS/Fedora Linux**: `yum install gcc-c++ make`
