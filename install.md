@@ -22,7 +22,13 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 # Configure
 5. **Rename** the file `config.sample.yml` to `config.yml`
 	- If you are upgrading, do not replace your existing `config.yml` file!
-6. **Edit** the file `config.yml` you just renamed.
+6. **Edit** the file `config.yml` you just renamed and enter the configuration values that are listed and explained in the table below:
 
 # Run Wiki.js
-You can now start Wiki.js and makes sure
+You can now start Wiki.js and make sure everything runs smoothly:
+
+7. In a command prompt, **run** the following command: `node server.js`
+	- Wait for the server to initialize. No error(s) should appear and you should have the 2 following lines (among other info):
+		- `[SERVER] HTTP/WS server started successfully! [RUNNING]`
+		- `[AGENT] All jobs completed successfully! Going to sleep for now.`
+8. 
