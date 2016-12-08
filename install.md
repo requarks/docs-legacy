@@ -11,3 +11,6 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 	- On Linux, the standard location would be under `/var/www`
 	- On Windows, the standard location would be under `C:\inetpub`
 	- On Mac, the standard location would be under `/Library/WebServer/Documents`
+
+# Configure
+3. Test
