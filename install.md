@@ -1,9 +1,9 @@
 <!-- TITLE: Install -->
 <!-- SUBTITLE: How to install Wiki.js on your server -->
-# Prerequisites
+# 1 - Prerequisites
 Make sure you have read the [prerequisites](prerequisites) page to ensure your server meets the minimum requirements.
 
-# Get Wiki.js
+# 2 - Get Wiki.js
 1. **Download the latest release** from the project [Releases page](https://github.com/Requarks/wiki/releases).
 	- On Linux, use the `wiki-js.tar.gz` version.
 	- On Windows and Mac, use the `wiki-js.zip` version.
@@ -12,7 +12,7 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 	- On Windows, the standard location would be under `C:\inetpub`
 	- On Mac, the standard location would be under `/Library/WebServer/Documents`
 
-# Install dependencies
+# 3: Install dependencies
 3. In a command prompt, **run** the following command: `npm install --only=production`
 	- On Linux, you are already in a command prompt! If you're in the GUI, launch a **Terminal** window and jump to the Wiki.js folder using the **cd** command. *e.g.* `cd /var/www/wiki`
 	- On Windows, navigate to the Wiki.js folder in File Explorer. Right-click in an empty area and choose **Open a command window here**.
@@ -20,7 +20,7 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 4. **Wait** for the dependencies installation to finish. If you see any error(s) in red, make sure you fix them first. Wiki.js will most likely crash or refuse to start if all dependencies are not properly installed. Note that you can safely ignore warnings (in yellow).
 	- If you get errors related to `node-gyp`, make sure you have the necessary build tools as explained in the [prerequisites](prerequisites) page!
 
-# Configure
+# 4. Configure
 5. **Rename** the file `config.sample.yml` to `config.yml`
 	- If you are upgrading, do not replace your existing `config.yml` file!
 6. **Edit** the file `config.yml` you just renamed and enter the configuration values that are listed and explained in the table below:
