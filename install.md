@@ -18,9 +18,10 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 	- On Windows, navigate to the Wiki.js folder in File Explorer. Right-click in an empty area and choose **Open a command window here**.
 	- On Mac, launch the **Terminal** application and jump to the Wiki.js folder using the **cd** command. *e.g.* `cd /Library/WebServer/Documents/wiki`
 
+4. **Wait** for the dependencies installation to finish. If you see any error(s) in red, make sure you fix them first. Wiki.js will most likely crash or refuse to start if all dependencies are not properly installed. Note that you can safely ignore warnings (in yellow).
 # Configure
-3. **Rename** the file `config.sample.yml` to `config.yml`
-4. **Edit** the file `config.yml` you just renamed.
+5. **Rename** the file `config.sample.yml` to `config.yml`
+6. **Edit** the file `config.yml` you just renamed.
 
 # Run Wiki.js
 You can now start Wiki.js and makes sure
