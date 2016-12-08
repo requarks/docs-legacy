@@ -21,6 +21,7 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 	- If you get errors related to `node-gyp`, make sure you have the necessary build tools as explained in the [prerequisites](prerequisites) page!
 # Configure
 5. **Rename** the file `config.sample.yml` to `config.yml`
+	- If you are upgrading, do not replace your existing `config.yml` file!
 6. **Edit** the file `config.yml` you just renamed.
 
 # Run Wiki.js
