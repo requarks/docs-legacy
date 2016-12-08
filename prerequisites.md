@@ -32,7 +32,7 @@ Your system must be able to compile node addons in order to install Wiki.js depe
 
 - On **Ubuntu/Debian Linux**: `sudo apt-get install -y build-essential`
 - On **RedHat/CentOS/Fedora Linux**: `yum install gcc-c++ make`
-- On **Windows**: In an elevated-priviledges command prompt: `npm install -g windows-build-tools`
+- On **Windows**: From an elevated command prompt: `npm install -g windows-build-tools`
 - On **macOS**: Install the `Command Line Tools` via Xcode *(Xcode -> Preferences -> Downloads)*.
 
 More info can be found on [node-gyp](https://github.com/nodejs/node-gyp#installation) project page, should you want to review and install the dependencies yourself.
