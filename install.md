@@ -13,5 +13,5 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 	- On Mac, the standard location would be under `/Library/WebServer/Documents`
 
 # Configure
-3. Test
-4. Test
+3. **Rename** the file `config.sample.yml` to `config.yml`
+4. **Edit** the file `config.yml` you just renamed.
