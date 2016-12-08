@@ -14,3 +14,4 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 
 # Configure
 3. Test
+4. Test
