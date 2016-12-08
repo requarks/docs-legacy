@@ -39,7 +39,7 @@ You can now start Wiki.js and make sure everything runs smoothly:
 # Run as a service
 We'll now configure Wiki.js to run as a background service using pm2.
 
-[pm2](http://pm2.keymetrics.io/) is a process manager for Node.js applications. It runs applications in the background, restarts them automatically if a crash occurs, save logs to file and most importantly, starts the apps back after a system reboot.
+> [pm2](http://pm2.keymetrics.io/) is a process manager for Node.js applications. It runs applications in the background, restarts them automatically if a crash occurs, save logs to file and most importantly, starts the apps back after a system reboot.
 
 9. Still in a command prompt, **install pm2** by running the following command: `npm install -g pm2`
 	 - Wait for the installation to complete.
