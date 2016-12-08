@@ -7,17 +7,17 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 # B - Get Wiki.js
 1. **Download the latest release** from the project [Releases page](https://github.com/Requarks/wiki/releases).
 	- On Linux, use the `wiki-js.tar.gz` version.
-	- On Windows and Mac, use the `wiki-js.zip` version.
+	- On Windows and macOS, use the `wiki-js.zip` version.
 2. **Extract the archive** to the final location of your choice on your server.
 	- On Linux, the standard location would be under `/var/www`
 	- On Windows, the standard location would be under `C:\inetpub`
-	- On Mac, the standard location would be under `/Library/WebServer/Documents`
+	- On macOS, the standard location would be under `/Library/WebServer/Documents`
 
 # C - Install dependencies
 3. In a command prompt, **run** the following command: `npm install --only=production`
 	- On Linux, you are already in a command prompt! If you're in the GUI, launch a **Terminal** window and jump to the Wiki.js folder using the **cd** command. *e.g.* `cd /var/www/wiki`
 	- On Windows, navigate to the Wiki.js folder in File Explorer. Right-click in an empty area and choose **Open a command window here**.
-	- On Mac, launch the **Terminal** application and jump to the Wiki.js folder using the **cd** command. *e.g.* `cd /Library/WebServer/Documents/wiki`
+	- On macOS, launch the **Terminal** application and jump to the Wiki.js folder using the **cd** command. *e.g.* `cd /Library/WebServer/Documents/wiki`
 4. **Wait** for the dependencies installation to finish. If you see any error(s) in red, make sure you fix them first. Wiki.js will most likely crash or refuse to start if all dependencies are not properly installed. Note that you can safely ignore warnings (in yellow).
 	- If you get errors related to `node-gyp`, make sure you have the necessary build tools as explained in the [prerequisites](prerequisites) page!
 
@@ -49,7 +49,7 @@ We'll now configure Wiki.js to run as a background service using pm2.
 11. **Verify** that Wiki.js is still running fine by querying its status: `pm2 status` 
 	- The app wiki should now be listed in the running processes and be in green!
 12. To make sure Wiki.js survives system reboots, we need to tell pm2 to configure itself **as a startup service**.
-	- On Linux/Mac, simply run the following command: `pm2 startup`
+	- On Linux/macOS, simply run the following command: `pm2 startup`
 		- pm2 will generate a command for you to execute. Copy the command and execute it.
 	- On Windows, we need to install an additional dependency:
 		- Run the command: `npm install pm2-windows-startup -g`
