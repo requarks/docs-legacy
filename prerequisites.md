@@ -20,7 +20,7 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js 
 - [Official Website](https://nodejs.org/)
 - [Installation using the package manager (Linux)](https://nodejs.org/en/download/package-manager/)
 
-> **Web Server**
+> :globe_with_meridians: **Web Server**
 >
 > Wiki.js (or any HTTP Node.js app) can run without any actual web server (such as nginx or Apache).  
 > However, it is highly recommended to put a standard web server in front of Wiki.js. This ensures you can use features like SSL, multiple websites, caching, etc.
