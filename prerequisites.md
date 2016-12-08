@@ -35,6 +35,8 @@ Your system must be able to compile node addons in order to install Wiki.js depe
 - On **Windows**: In an elevated-priviledges command prompt: `npm install -g windows-build-tools`
 - On **macOS**: Install the `Command Line Tools` via Xcode *(Xcode -> Preferences -> Downloads)*.
 
+More info can be found on [node-gyp](https://github.com/nodejs/node-gyp#installation) project page, should you want to review and install the dependencies yourself.
+
 ## MongoDB
 MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.
 
