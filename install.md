@@ -53,5 +53,5 @@ We'll now configure Wiki.js to run as a background service using pm2.
 	- On Windows, we need to install an additional dependency:
 		- Run the command: `npm install pm2-windows-startup -g`
 		- Once finished, run the command: `pm2-startup install`
-13. Finally, save the current pm2 configuration by running the command: `pm2 save`
+13. Finally, **save the current pm2 configuration** by running the command: `pm2 save`
 	
