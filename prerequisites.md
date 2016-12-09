@@ -47,7 +47,10 @@ MongoDB is a free and open-source cross-platform document-oriented database prog
 
 ## An empty Git repository
 
-All content created in the Wiki is saved locally and synced regularly to a remote Git repository. Any standard Git repository will do, as long as the Wiki can connect to it using basic, oauth or ssh authentication. A list of a few great Git providers you can use:
+All content created in the Wiki is saved locally and synced regularly to a remote Git repository.  
+Any Git repository will do, as long as the Wiki can connect to it using **basic**, **oauth** or **ssh** authentication.
+
+A list of a few great Git providers you can use:
 
 - [GitHub](https://github.com/)
 - [GitLab](https://gitlab.com/)
