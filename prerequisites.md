@@ -45,6 +45,20 @@ MongoDB is a free and open-source cross-platform document-oriented database prog
 - [Official Website](https://www.mongodb.com/)
 - [Installation Guide](https://docs.mongodb.com/manual/administration/install-community/)
 
+## An empty Git repository
+
+All content created in the Wiki is saved locally and synced regularly to a remote Git repository. Any standard Git repository will do, as long as the Wiki can connect to it using basic, oauth or ssh authentication. A list of a few great Git providers you can use:
+
+- [GitHub](https://github.com/)
+- [GitLab](https://gitlab.com/)
+- [BitBucket](https://bitbucket.org/)
+- [Visual Studio Team Services](https://www.visualstudio.com/team-services/)
+
+Note that you can use an existing repository, as long as the filenames match the requirements below. The existing content will be fetched during the first sync.
+- All markdown files (.md) and folders are in lowercase (including the file extension).
+- All markdown files (.md) and folders use the hyphen `-` to separate words. e.g. `sample-file-tutorial.md`
+
+You can leave the README.md file as is, it will be ignored by Wiki.js.
 # End User Requirements
 The following modern browsers are supported:
 
