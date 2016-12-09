@@ -88,6 +88,7 @@ You can now start Wiki.js and make sure everything runs smoothly:
 	- Make sure no errors appear and that you have the following 2 lines:
 		- `[SERVER] HTTP/WS server started successfully! [RUNNING]`
 		- `[AGENT] All jobs completed successfully! Going to sleep for now.`
+	- Browse to your Wiki from your browser. You should see the Wiki.js welcome screen.
 8. Now that you know that the server runs fine, **kill** the server sending key combination `CTRL-C` twice.
 	- Why? Because we are not going to actually run the server this way. We were only making sure it runs without error.
 
