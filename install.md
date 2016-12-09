@@ -39,6 +39,8 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 
 ## Authentication
 
+Wiki.js offers various authentication providers that you can enable. See the [authentication guide](authentication) to learn how to get the necessary info for each provider.
+
 | Property            | Required | Description                                                                                                                          |   Default Value  |
 |---------------------|:--------:|--------------------------------------------------------------------------------------------------------------------------------------|:----------------:|
 | **public**          | yes      | Should the wiki be accessible publicly without a login. Set to false to require all users to login before accessing any wiki content. | false |
