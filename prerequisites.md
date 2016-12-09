@@ -58,7 +58,7 @@ Note that you can use an existing repository (from an existing Wiki.js installat
 - All markdown files (.md) and folders are in lowercase (including the file extension).
 - All markdown files (.md) and folders use the hyphen `-` to separate words. e.g. `sample-file-tutorial.md`
 
-You can leave the README.md file as is, it will be ignored by Wiki.js.
+You can leave the `README.md` file as is, it will be ignored by Wiki.js.
 # End User Requirements
 The following modern browsers are supported:
 
