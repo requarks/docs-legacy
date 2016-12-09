@@ -34,16 +34,16 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 | **paths > repo**    | yes      | The path (absolute or relative to server.js) to the folder where markdown content will be synchronized with the Git repository. Make sure this folder has the necessary write permissions. | ./repo |
 | **paths > data**    | yes      | The path (absolute or relative to server.js) to the folder where temporary data will be stored (cache, thumbnails, search indexes, etc.). Make sure this folder has the necessary write permissions. | ./data |
 | **public**          | yes      | Should the wiki be accessible publicly without a login. Set to false to require all users to login before accessing any wiki content. | false |
-| **auth > local > enabled**          | no | Enable the local authentication provider. | true |
-| **auth > google > enabled**         | no | Enable the Google authentication provider | false |
-| **auth > google > clientId**        | no | Google client ID that uniquely identify your app. | |
-| **auth > google > clientSecret**    | no | Google client secret for your app. | |
-| **auth > microsoft > enabled**      | no | Enable the Microsoft account authentication provider. | false |
-| **auth > microsoft > clientId**     | no | Microsoft account client ID that uniquely identify your app. | |
-| **auth > microsoft > clientSecret** | no | Microsoft account client secret for your app. | |
-| **auth > facebook > enabled**       | no | Enable the Facebook authentication provider | false |
-| **auth > facebook > clientId**      | no | Facebook client ID that uniquely identify your app. | |
-| **auth > facebook > clientSecret**  | no | Facebook client secret for your app. | |
+| **auth.local.enabled**          | no | Enable the local authentication provider. | true |
+| **auth.google.enabled**         | no | Enable the Google authentication provider | false |
+| **auth.google.clientId**        | no | Google client ID that uniquely identify your app. | |
+| **auth.google.clientSecret**    | no | Google client secret for your app. | |
+| **auth.microsoft.enabled**      | no | Enable the Microsoft account authentication provider. | false |
+| **auth.microsoft.clientId**     | no | Microsoft account client ID that uniquely identify your app. | |
+| **auth.microsoft.clientSecret** | no | Microsoft account client secret for your app. | |
+| **auth.facebook.enabled**       | no | Enable the Facebook authentication provider | false |
+| **auth.facebook.clientId**      | no | Facebook client ID that uniquely identify your app. | |
+| **auth.facebook.clientSecret**  | no | Facebook client secret for your app. | |
 
 
 # E - Run Wiki.js
