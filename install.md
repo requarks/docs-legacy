@@ -65,6 +65,8 @@ Wiki.js offers various authentication providers that you can enable. See the [au
 
 ## Git Repository
 
+Wiki.js works with pretty much any Git repository. See the [Git repository guide](git) to learn how to get the necessary info from the most popular providers.
+
 | Property            | Required | Description                                                                                                                          |   Default Value  |
 |---------------------|:--------:|--------------------------------------------------------------------------------------------------------------------------------------|:----------------:|
 | **git.url**               | yes | The full URL to your Git repository where all content will be synced. | |
