@@ -54,7 +54,7 @@ All content created in the Wiki is saved locally and synced regularly to a remot
 - [BitBucket](https://bitbucket.org/)
 - [Visual Studio Team Services](https://www.visualstudio.com/team-services/)
 
-Note that you can use an existing repository, as long as the filenames match the requirements below. The existing content will be fetched during the first sync.
+Note that you can use an existing repository (from an existing Wiki.js installation or any standard markdown-based documentation system), as long as the filenames match the requirements below. The existing content will be fetched during the first sync.
 - All markdown files (.md) and folders are in lowercase (including the file extension).
 - All markdown files (.md) and folders use the hyphen `-` to separate words. e.g. `sample-file-tutorial.md`
 
