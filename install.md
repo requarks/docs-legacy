@@ -44,7 +44,7 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 | **auth.facebook.enabled**       | no | Enable the Facebook authentication provider | false |
 | **auth.facebook.clientId**      | no | Facebook client ID that uniquely identify your app. | |
 | **auth.facebook.clientSecret**  | no | Facebook client secret for your app. | |
-| **db**                    | yes | The MongoDB-formatted connection string. [Learn more](db) | |
+| **db**                    | yes | The MongoDB-formatted [connection string](db). | |
 | **git.url**               | yes | The full URL to your Git repository where all content will be synced. | |
 | **git.branch**            | yes | The branch of your Git repository to sync. | master |
 | **git.auth.type**         | yes | The type of authentication to use when connecting to your Git repository. Valid values: `basic`, `oauth` or `ssh` | basic |
