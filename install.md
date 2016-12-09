@@ -28,9 +28,11 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 
 | Configuration Entry | Required | Description                                                                                                                          |   Default Value  |
 |---------------------|:--------:|--------------------------------------------------------------------------------------------------------------------------------------|:----------------:|
-| title               | yes      | The title of the website. Displayed in the navigation bar.                                                                           | Wiki             |
-| host                | yes      | The full hostname of the site, as accessed by the user. Do not add a trailing slash.                                                 | http://localhost |
-| port                | no       | The port on which the server should listen to. You can also use the environment variable process.env.PORT by omitting this property. | 80               |
+| **title**           | yes      | The title of the website. Displayed in the navigation bar.                                                                           | Wiki             |
+| **host**            | yes      | The full hostname of the site, as accessed by the user. Do not add a trailing slash.                                                 | http://localhost |
+| **port**            | no       | The port on which the server should listen to. You can also use the environment variable process.env.PORT by omitting this property. | 80               |
+| paths > repo        | yes      | The path (absolute or relative to server.js) to the folder where markdown content will be synchronized with the Git repository. Make sure this folder has the necessary write permissions. | ./repo |
+
 
 # E - Run Wiki.js
 You can now start Wiki.js and make sure everything runs smoothly:
