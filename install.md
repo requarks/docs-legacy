@@ -53,7 +53,7 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 | **git.auth.publicKey**    | no  | The username to use when authenticating with your Git repository | |
 | **git.auth.privateKey**   | no  | The username to use when authenticating with your Git repository | |
 | **git.auth.sslVerify**    | no  | The username to use when authenticating with your Git repository | true |
-| **git.signature.name**    | yes | The name to use as the author when pushing changes to your Git repository. | |
+| **git.signature .name**    | yes | The name to use as the author when pushing changes to your Git repository. | |
 | **git.signature.email**   | yes | The email address to use as the author when pushing changes to your Git repository. | |
 | **sessionSecret**         | yes | A randomly generated string, used when encrypting sessions. 256-bit keys are usually a good choice. | |
 | **admin**                 | yes | The site administrator email address. An admin account will be created in the local database using this email. The default password is admin123. Change it immediately uplon login! | |
