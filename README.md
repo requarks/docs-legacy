@@ -1,2 +1,4 @@
 # wiki-docs
-Documentation for Requarks Wiki
+Documentation repository for Wiki.js
+
+View [full site](https://wiki.requarks.io/) instead.
