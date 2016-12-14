@@ -10,20 +10,20 @@ The list of Git repository providers is actually quite long, but we'll focus on 
 
 ## GitHub
 
-Public: Yes (free)
+Public: Yes (free)  
 Private: Paid only
 
 ## GitLab
 
-Public: Yes (free)
+Public: Yes (free)  
 Private: Yes (free)
 
 ## Bitbucket
 
-Public: Yes (free, with limits)
+Public: Yes (free, with limits)  
 Private: Yes (free, with limits)
 
 ## Visual Studio Team Services
 
-Public: No
+Public: No  
 Private: Yes (free, with limits)
