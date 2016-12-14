@@ -1,6 +1,6 @@
 <!-- TITLE: Wiki.js -->
 <!-- SUBTITLE: Documentation on installing, managing and using Wiki.js -->
-
+![Wiki](/uploads/page-icons/wiki.png "Wiki"){.pagelogo}
 # Overview
 - [Homepage](https://wiki.requarks.io/)
 - [Features](https://wiki.requarks.io/#features)
