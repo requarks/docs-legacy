@@ -2,7 +2,7 @@
 <!-- SUBTITLE: Documentation on installing, managing and using Wiki.js -->
 
 # Overview
-- [Wiki.js Homepage](https://wiki.requarks.io/)
+- [Project Homepage](https://wiki.requarks.io/)
 - [Features](https://wiki.requarks.io/#features)
 - [Screenshots](screenshots)
 - [Comparisons](comparisons)
