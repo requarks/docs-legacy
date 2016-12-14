@@ -2,9 +2,9 @@
 <!-- SUBTITLE: Guide on connecting to various Git providers -->
 ![Git Logo](/uploads/page-icons/git-logo.png "Git Logo"){.pagelogo}
 # What is Git
-
+Git is a version control system (VCS) that is used mainly for software development and other version control tasks. As a distributed revision control system it is aimed at speed, data integrity, and support for distributed, non-linear workflows. In other words, it backups and keeps track of everything you add, modify or delete in a repository.
 # Why do I need it?
-Because the documentation you write should always be stored in a safe location. Even though databases and file storages can be configured to have backups, they are either costly or ineffective. Storing documents into a Git repository not only make sense, it's cost effective (free in most cases), fast and safe.
+Because the documentation you write should always be stored in a safe location. Even though databases and file storages can be configured to have backups, they are either costly or completely ineffective. Storing documents into a Git repository not only make sense, it's cost effective (free in most cases), fast and safe.
 
 Having all your documentation in a central Git repository means you control 100% of your data at all times.
 - Want to modify that content outside the Wiki? **You can**.
@@ -25,10 +25,10 @@ Private: Yes (free)
 
 ## Bitbucket
 
-Public: Yes (free, with limits)  
-Private: Yes (free, with limits)
+Public: Yes (free, up to 5 users)  
+Private: Yes (free, up to 5 users)
 
 ## Visual Studio Team Services
 
 Public: No  
-Private: Yes (free, with limits)
+Private: Yes (free, up to 5 users)
