@@ -1,6 +1,6 @@
 <!-- TITLE: Git -->
 <!-- SUBTITLE: Guide on connecting to various Git providers -->
-
+![Git Logo](/uploads/page-icons/git-logo.png "Git Logo"){.pagelogo}
 # What is Git
 
 # Why?
