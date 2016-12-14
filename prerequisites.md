@@ -45,6 +45,21 @@ MongoDB is a free and open-source cross-platform document-oriented database prog
 - [Official Website](https://www.mongodb.com/)
 - [Installation Guide](https://docs.mongodb.com/manual/administration/install-community/)
 
+It can safely be installed on the same server as Wiki.js. MongoDB is mainly used for users and content metadata, which is very light on server resources usage.
+
+### Replica Set / Sharded Cluster support
+
+Fully supported.
+
+### Cloud Providers
+
+Should you prefer on having a cloud provider host the MongoDB instance for you, here's a few examples:
+
+- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+- [mLab](https://mlab.com/)
+- [Compose (IBM)](https://www.compose.com/mongodb)
+- [ObjectRocket (rackspace)](http://objectrocket.com/mongodb/)
+
 ## An empty Git repository
 
 All content created in the Wiki is saved locally and synced regularly to a remote Git repository.  
