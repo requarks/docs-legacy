@@ -45,11 +45,7 @@ MongoDB is a free and open-source cross-platform document-oriented database prog
 
 It can safely be installed on the same server as Wiki.js. MongoDB is mainly used for users and content metadata, which is very light on server resources usage.
 
-## Replica Set / Sharded Cluster support
-
-Fully supported.
-
-## Cloud Providers
+Replica Set / Sharded Cluster installations are fully supported.
 
 Should you prefer on having a cloud provider host the MongoDB instance for you, here's a few examples:
 
