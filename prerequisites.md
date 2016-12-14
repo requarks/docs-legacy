@@ -54,6 +54,11 @@ Should you prefer on having a cloud provider host the MongoDB instance for you, 
 - [Compose (IBM)](https://www.compose.com/mongodb)
 - [ObjectRocket (rackspace)](http://objectrocket.com/mongodb/)
 
+> :warning: **Cloud Provider Considerations**
+>
+> Make sure the MongoDB instance runs in the same datacenter (preferrably) or the same region. Connecting to instances located in another location will result in latency and poor performances!
+{.is-warning}
+
 # An empty Git repository
 
 All content created in the Wiki is saved locally and synced regularly to a remote Git repository.  
