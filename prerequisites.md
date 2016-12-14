@@ -9,9 +9,7 @@ While Wiki.js runs on pretty much any platform that supports the requirements be
 - Ubuntu Server 14.04 LTS / 16.04 LTS
 - Windows Server 2012 R2
 
-# Server Requirements
-
-## Node.js
+# Node.js
 
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
 
@@ -26,7 +24,7 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js 
 > However, it is highly recommended to put a standard web server in front of Wiki.js. This ensures you can use features like SSL, multiple websites, caching, etc.
 {.is-info}
 
-## Node.js native compilation support
+# Node.js native compilation support
 
 Your system must be able to compile native Node.js addons in order to successfully install Wiki.js dependencies:
 
@@ -37,7 +35,7 @@ Your system must be able to compile native Node.js addons in order to successful
 
 More info can be found on [node-gyp](https://github.com/nodejs/node-gyp#installation) project page, should you want to review and install the dependencies yourself.
 
-## MongoDB
+# MongoDB
 MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.
 
 :information_source: **MongoDB** `3.2` **or later is required.**
@@ -47,11 +45,11 @@ MongoDB is a free and open-source cross-platform document-oriented database prog
 
 It can safely be installed on the same server as Wiki.js. MongoDB is mainly used for users and content metadata, which is very light on server resources usage.
 
-### Replica Set / Sharded Cluster support
+## Replica Set / Sharded Cluster support
 
 Fully supported.
 
-### Cloud Providers
+## Cloud Providers
 
 Should you prefer on having a cloud provider host the MongoDB instance for you, here's a few examples:
 
@@ -60,7 +58,7 @@ Should you prefer on having a cloud provider host the MongoDB instance for you, 
 - [Compose (IBM)](https://www.compose.com/mongodb)
 - [ObjectRocket (rackspace)](http://objectrocket.com/mongodb/)
 
-## An empty Git repository
+# An empty Git repository
 
 All content created in the Wiki is saved locally and synced regularly to a remote Git repository.  
 Any Git repository will do, as long as the Wiki can connect to it using **basic**, **oauth** or **ssh** authentication.
