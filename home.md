@@ -13,7 +13,7 @@
 - [Git](git)
 
 # User Guide
-- todo
+- [Change Account Password](user-guide/change-password)
 
 # Contributing
 - todo
