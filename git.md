@@ -15,20 +15,28 @@ The list of Git repository providers is actually quite long, but we'll focus on 
 
 ## GitHub
 
-Public: Yes (free)  
-Private: Paid only
+Public: **Yes (free)**  
+Private: **Paid only**
+
+https://github.com/
 
 ## GitLab
 
-Public: Yes (free)  
-Private: Yes (free)
+Public: **Yes (free)**  
+Private: **Yes (free)**
+
+https://gitlab.com/
 
 ## Bitbucket
 
-Public: Yes (free, up to 5 users)  
-Private: Yes (free, up to 5 users)
+Public: **Yes (free, up to 5 users)**  
+Private: **Yes (free, up to 5 users)**
+
+https://bitbucket.org/
 
 ## Visual Studio Team Services
 
-Public: No  
-Private: Yes (free, up to 5 users)
+Public: **No**  
+Private: **Yes (free, up to 5 users)**
+
+https://visualstudio.com/
