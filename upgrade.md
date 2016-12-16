@@ -4,10 +4,10 @@
 # Before upgrading
 
 # Upgrade
-> **Glossary**  
+> :information_source: **Glossary**  
 > In the instructions below, the following terms refer to:
 > 
-> - **wiki folder:** The folder where Wiki.js is located.  
+> - **wiki folder:** The folder where your Wiki.js installation is located.  
 > - **repo folder:** The folder where the local Git repository is located, as defined in your config.yml file.  
 > - **data folder:** The folder where temporary files for Wiki.js are located, as defined in your config.yml file.  
 
