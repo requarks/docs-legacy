@@ -17,13 +17,26 @@ The list of Git repository providers is actually quite long, but we'll focus on 
 
 Public: **Yes (free)**  
 Private: **Paid only**
+Supported authentication methods: **SSL, OAuth and Basic**
 
 https://github.com/
+
+### Using SSH:
+
+
+### Using OAuth:
+
+asdasdasd
+
+### Using Basic:
+
+asdasd
 
 ## GitLab
 
 Public: **Yes (free)**  
 Private: **Yes (free)**
+Supported authentication methods: **SSL, OAuth and Basic**
 
 https://gitlab.com/
 
@@ -31,6 +44,7 @@ https://gitlab.com/
 
 Public: **Yes (free, up to 5 users)**  
 Private: **Yes (free, up to 5 users)**
+Supported authentication methods: **SSL, OAuth and Basic**
 
 https://bitbucket.org/
 
@@ -38,5 +52,6 @@ https://bitbucket.org/
 
 Public: **No**  
 Private: **Yes (free, up to 5 users)**
+Supported authentication methods: **SSL and Basic**
 
 https://visualstudio.com/
