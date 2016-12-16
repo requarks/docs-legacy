@@ -16,7 +16,7 @@ There's quite an extensive list of Git providers, but we'll focus on the 4 major
 ## GitHub
 
 Public: **Yes (free)**  
-Private: **Paid only**
+Private: **Paid only**  
 Supported authentication methods: **SSH and Basic**
 
 https://github.com/
@@ -38,7 +38,7 @@ https://github.com/
 ## GitLab
 
 Public: **Yes (free)**  
-Private: **Yes (free)**
+Private: **Yes (free)**  
 Supported authentication methods: **SSH, OAuth and Basic**
 
 https://gitlab.com/
@@ -46,7 +46,7 @@ https://gitlab.com/
 ## Bitbucket
 
 Public: **Yes (free, up to 5 users)**  
-Private: **Yes (free, up to 5 users)**
+Private: **Yes (free, up to 5 users)**  
 Supported authentication methods: **SSH, OAuth and Basic**
 
 https://bitbucket.org/
@@ -54,7 +54,7 @@ https://bitbucket.org/
 ## Visual Studio Team Services
 
 Public: **No**  
-Private: **Yes (free, up to 5 users)**
+Private: **Yes (free, up to 5 users)**  
 Supported authentication methods: **SSH and Basic**
 
 https://visualstudio.com/
