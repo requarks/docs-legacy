@@ -90,7 +90,7 @@ git:
     # Check for valid SSL certificate
     sslVerify: true
 		
-	signature:
+  signature:
     name: Marty
     email: marty@doc.com
 ```
