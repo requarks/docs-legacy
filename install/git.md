@@ -74,20 +74,20 @@ git:
   branch: master
   auth:
 	
-		# Type: basic, oauth or ssh
+    # Type: basic, oauth or ssh
     type: ssh
 		
-		# Username / Email
+    # Username / Email
     username: marty@doc.com
 		
-		# Password, OAuth token or private key passphrase:
+    # Password, OAuth token or private key passphrase:
     password: MartyMcFly88
 		
-		# Only for SSH authentication:
+    # Only for SSH authentication:
     publicKey: /etc/wiki/keys/git-public.pem
     privateKey: /etc/wiki/keys/git-private.pem
 		
-		# Check for valid SSL certificate
+    # Check for valid SSL certificate
 		sslVerify: true
 		
 	signature:
