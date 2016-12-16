@@ -1,6 +1,6 @@
 <!-- TITLE: Database -->
 <!-- SUBTITLE: How to configure MongoDB with Wiki.js -->
-![Leaf](/uploads/page-icons/leaf.png "Leaf"){.pagelogo}
+![Mongodb](/uploads/page-icons/mongodb.png "Mongodb"){.pagelogo}
 
 # MongoDB
 
