@@ -117,7 +117,7 @@ git:
 
 ## Using OAuth
 
-The OAuth token must be set in the **password** field.
+The OAuth token must be set in the **password** parameter.
 
 Example:
 ```yaml
