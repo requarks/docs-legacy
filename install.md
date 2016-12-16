@@ -24,7 +24,7 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 # D - Configure
 5. **Rename** the file `config.sample.yml` to `config.yml`
 	- If you are upgrading, do not replace your existing `config.yml` file!
-6. **Edit** the file `config.yml` you just renamed and enter the configuration values to match your setup. See the [Configuration File](install/guide) guide for all the possible properties you can use.
+6. **Edit** the file `config.yml` you just renamed and enter the configuration values to match your setup. See the [Configuration File](install/configuration) guide for all the possible properties you can use.
 
 # E - Run Wiki.js
 You can now start Wiki.js and make sure everything runs smoothly:
