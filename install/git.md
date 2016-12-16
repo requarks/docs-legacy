@@ -110,7 +110,7 @@ git:
     password: MartyMcFly88
     publicKey: /etc/wiki/keys/git-public.pem
     privateKey: /etc/wiki/keys/git-private.pem
-	signature:
+  signature:
     name: Marty
     email: marty@doc.com
 ```
@@ -128,7 +128,7 @@ git:
     type: oauth
     username: marty@doc.com
     password: abcdef1234567890abcdef1234567890
-	signature:
+  signature:
     name: Marty
     email: marty@doc.com
 ```
@@ -146,7 +146,7 @@ git:
     type: oauth
     username: marty@doc.com
     password: MartyMcFly88
-	signature:
+  signature:
     name: Marty
     email: marty@doc.com
 ```
