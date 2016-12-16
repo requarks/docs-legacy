@@ -88,7 +88,7 @@ git:
     privateKey: /etc/wiki/keys/git-private.pem
 		
     # Check for valid SSL certificate
-		sslVerify: true
+    sslVerify: true
 		
 	signature:
     name: Marty
