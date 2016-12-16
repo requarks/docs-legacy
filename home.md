@@ -11,7 +11,7 @@
 - [Prerequisites](prerequisites)
 - [Install](install)
 	- [Configuration File](install/configuration)
-	- [Authentication](authentication)
+	- [Authentication](install/authentication)
 	- [Database](install/database)
 	- [Git](install/git)
 
