@@ -10,6 +10,7 @@
 # Getting Started
 - [Prerequisites](prerequisites)
 - [Install](install)
+	- [Configuration File](install/configuration)
 - [Authentication](authentication)
 - [Git](git)
 
