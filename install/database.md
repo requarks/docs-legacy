@@ -27,3 +27,21 @@ Should you prefer on having a cloud provider host the MongoDB instance for you, 
 {.is-warning}
 
 # Connection String
+A MongoDB connection string is formatted as such:
+
+`mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][/[database][?options]]`
+
+Refer to the [official MongoDB documentation](https://docs.mongodb.com/manual/reference/connection-string/) for all the possible options.
+
+# Examples
+**Using a local MongoDB instance (on the same server as Wiki.js):**
+
+mongodb://localhost:27017/wiki
+
+**A username/password protected instance on a single remote server:**
+
+mongodb://username:password@remote.server.com:27017/wiki
+
+**A usernane/password protected instance on a remote cluster:**
+
+mongodb://username:password@first.server.com:27017,second.server.com:27017,third.server.com:27017/wiki
