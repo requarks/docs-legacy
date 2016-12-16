@@ -4,6 +4,13 @@
 # Before upgrading
 
 # Upgrade
+> **Glossary**
+> In the instructions below, the following terms refer to:
+> 
+> wiki folder: The folder where Wiki.js is located.
+> repo folder: The folder where the local Git repository is located, as defined in your config.yml file.
+> data folder: The folder where temporary files for Wiki.js are located, as defined in your config.yml file.
+
 1. **Download** the latest version from the [Releases](https://github.com/Requarks/wiki/releases) page.
 
 2. **Stop** Wiki.js by running the command `pm2 stop wiki`
