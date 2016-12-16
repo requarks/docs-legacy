@@ -14,7 +14,7 @@
 	- [Authentication](install/authentication)
 	- [Database](install/database)
 	- [Git](install/git)
-
+- [Upgrade](upgrade)
 
 # User Guide
 - [Change Account Password](user-guide/change-password)
