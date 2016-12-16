@@ -13,7 +13,7 @@
 
 # Authentication
 
-Wiki.js offers various authentication providers that you can enable. See the [authentication guide](authentication) to learn how to get the necessary info for each provider.
+Wiki.js offers various authentication providers that you can enable. See the [authentication guide](/authentication) to learn how to get the necessary info for each provider.
 
 | Property            | Required | Description                                                                                                                          |   Default Value  |
 |---------------------|:--------:|--------------------------------------------------------------------------------------------------------------------------------------|:----------------:|
@@ -39,7 +39,7 @@ Wiki.js offers various authentication providers that you can enable. See the [au
 
 # Git Repository
 
-Wiki.js works with pretty much any Git repository. See the [Git repository guide](git) to learn how to get the necessary info from the most popular providers.
+Wiki.js works with pretty much any Git repository. See the [Git repository guide](/git) to learn how to get the necessary info from the most popular providers.
 
 | Property            | Required | Description                                                                                                                          |   Default Value  |
 |---------------------|:--------:|--------------------------------------------------------------------------------------------------------------------------------------|:----------------:|
