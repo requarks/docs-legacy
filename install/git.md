@@ -17,20 +17,23 @@ The list of Git repository providers is actually quite long, but we'll focus on 
 
 Public: **Yes (free)**  
 Private: **Paid only**
-Supported authentication methods: **SSL, OAuth and Basic**
+Supported authentication methods: **SSL and Basic**
 
 https://github.com/
 
 ### Using SSH:
 
-
-### Using OAuth:
-
-asdasdasd
+- From the **Settings** page, select **SSH Keys** in the sidebar.
+- Click the **New SSH Key** button.
+- Enter your **public key** content in the textbox. Learn how to [create a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
+- Follow the instructions for SSH below.
 
 ### Using Basic:
 
-asdasd
+- From the **Settings** page, select **Personal Access Tokens** in the sidebar.
+- Click on **Generate New Token**.
+- Enter a description for this token (e.g. Wiki.js) and enable the **repo** permissions.
+- Follow the instructions for Basic below.
 
 ## GitLab
 
