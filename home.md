@@ -11,8 +11,10 @@
 - [Prerequisites](prerequisites)
 - [Install](install)
 	- [Configuration File](install/configuration)
-- [Authentication](authentication)
-- [Git](git)
+	- [Authentication](authentication)
+	- [Database](install/database)
+	- [Git](install/git)
+
 
 # User Guide
 - [Change Account Password](user-guide/change-password)
