@@ -2,7 +2,9 @@
 <!-- SUBTITLE: How to upgrade to the latest version of Wiki.js -->
 
 # Before upgrading
-
+- Your Wiki.js installation will not be accessible during the upgrade process.
+- No content will be lost. However, users should stop editing content and save their changes before starting the upgrade.
+- Read the release notes of the latest release carefully, in case special upgrade instructions steps are provided.
 # Upgrade
 > :information_source: **Glossary**  
 > In the instructions below, the following terms refer to:
