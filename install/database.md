@@ -36,12 +36,12 @@ Refer to the [official MongoDB documentation](https://docs.mongodb.com/manual/re
 # Examples
 **Using a local MongoDB instance (on the same server as Wiki.js):**
 
-mongodb://localhost:27017/wiki
+`mongodb://localhost:27017/wiki`
 
 **A username/password protected instance on a single remote server:**
 
-mongodb://username:password@remote.server.com:27017/wiki
+`mongodb://username:password@remote.server.com:27017/wiki`
 
 **A usernane/password protected instance on a remote cluster:**
 
-mongodb://username:password@first.server.com:27017,second.server.com:27017,third.server.com:27017/wiki
+`mongodb://username:password@first.server.com:27017,second.server.com:27017,third.server.com:27017/wiki`
