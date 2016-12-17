@@ -4,12 +4,21 @@
 
 Wiki.js is cross-platform (Windows, Linux and Mac) and does not depend on any paid commercial product / service.
 
-While Wiki.js runs on pretty much any platform that supports the requirements below, the following environments are recommended and more thoroughly tested:
+# System
+
+While Wiki.js runs on pretty much any platform that supports the requirements below. However, the following environments are recommended and more thoroughly tested:
 
 - Ubuntu Server 14.04 LTS / 16.04 LTS
 - Windows Server 2012 R2
 
-# Node.js
+**CPU:** Run perfectly fine on a single CPU core machine. However, to maximize Wiki.js background agent feature, using 2 cores is recommended.
+
+**RAM:** Wiki.js uses between 100-200MB of RAM. While Wiki.js itself can run with only 512MB of RAM, you will not be able to install and compile the dependencies. You need a minimum of 1GB just to install the dependencies.
+
+**Disk Space:** Wiki.js requires about 300MB of disk space when including the dependencies. The actual total space needed for your installation depends on the content and most importantly, the uploads. A wiki with only text content will only use a few megabytes, even for thousands of articles. However, if you start adding images, documents, videos, etc., you must plan required disk space accordingly.
+
+# Software
+## Node.js
 
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
 
@@ -24,7 +33,7 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js 
 > However, it is highly recommended to put a standard web server in front of Wiki.js. This ensures you can use features like SSL, multiple websites, caching, etc.
 {.is-info}
 
-# Node.js native compilation support
+## Node.js native compilation support
 
 Your system must be able to compile native Node.js addons in order to successfully install Wiki.js dependencies:
 
@@ -35,7 +44,7 @@ Your system must be able to compile native Node.js addons in order to successful
 
 More info can be found on [node-gyp](https://github.com/nodejs/node-gyp#installation) project page, should you want to review and install the dependencies yourself.
 
-# MongoDB
+## MongoDB
 MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.
 
 :information_source: **MongoDB** `3.2` **or later is required.**
@@ -45,7 +54,7 @@ MongoDB is a free and open-source cross-platform document-oriented database prog
 
 Read the [Database Guide](/install/database) for more information.
 
-# An empty Git repository
+## An empty Git repository
 
 All content created in the Wiki is saved locally and synced regularly to a remote Git repository.  
 Any Git repository will do, as long as the Wiki can connect to it using **basic**, **oauth** or **ssh** authentication.
