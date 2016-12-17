@@ -11,7 +11,7 @@ While Wiki.js runs on pretty much any platform that supports the requirements be
 - Ubuntu Server 14.04 LTS / 16.04 LTS
 - Windows Server 2012 R2
 
-**CPU:** Run perfectly fine on a single CPU core machine. However, to maximize Wiki.js background agent feature, using 2 cores is recommended.
+**CPU:** Runs perfectly fine on a single CPU core machine. However, to maximize Wiki.js background agent feature, using 2 cores is highly recommended.
 
 **RAM:** Wiki.js uses between 100-200MB of RAM. While Wiki.js itself can run with only 512MB of RAM, you will not be able to install and compile the dependencies. You need a minimum of 1GB just to install the dependencies.
 
