@@ -16,6 +16,8 @@
 	- [Git](install/git)
 - [Upgrade](upgrade)
 
+# Admin Guide
+- [Manage Users](admin-guide/manage-users)
 # User Guide
 - [Change Account Password](user-guide/change-password)
 
