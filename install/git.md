@@ -143,7 +143,7 @@ git:
   url: https://server.com/org/repo
   branch: master
   auth:
-    type: oauth
+    type: basic
     username: marty@doc.com
     password: MartyMcFly88
   signature:
