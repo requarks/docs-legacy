@@ -6,7 +6,7 @@ Wiki.js is cross-platform (Windows, Linux and Mac) and does not depend on any pa
 
 # System
 
-While Wiki.js runs on pretty much any platform that supports the requirements below. However, the following environments are recommended and more thoroughly tested:
+Wiki.js runs on pretty much any platform that supports the requirements below. However, the following environments are recommended and more thoroughly tested:
 
 - Ubuntu Server 14.04 LTS / 16.04 LTS
 - Windows Server 2012 R2
