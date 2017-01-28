@@ -11,7 +11,13 @@ The local provider stores user accounts in the wiki database. It does not rely o
 This is the most simple solution and is enabled by default.
 # Microsoft Account
 The Microsoft Account provider lets users login using their own Microsoft account.
+
+*Documentation coming soon*
 # Google ID
 The Google ID provider lets users login using their own Google ID.
+
+*Documentation coming soon*
 # Facebook
 The Facebook provider lets users login using their own Facebook login.
+
+*Documentation coming soon*
