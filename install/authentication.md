@@ -13,7 +13,7 @@ This is the most simple solution and is enabled by default.
 The Microsoft Account provider lets users login using their own Microsoft account.
 
 1. Go to https://account.live.com/developers/applications/index
-2. **Create** a new application and name it `Wiki` (can be anything).
+2. **Create** a new application (e.g. Wiki).
 3. Under **Properties**, take note of the generated **Application Id**.
 4. Under **Application Secrets**, click on **Generate New Password**. Take note of the provided password! It will not be shown again.
 5. Under **Platforms**, click on **Add Platform**. Choose **Web**.
@@ -36,7 +36,24 @@ microsoft:
 # Google ID
 The Google ID provider lets users login using their own Google ID.
 
-*Documentation coming soon*
+1. Go to https://console.cloud.google.com/
+2. **Create** a new Project (e.g. Wiki).
+3. From the sidebar menu, click **API Manager**, then **Credentials**.
+4. Under the **OAuth consent screen** tab, **fill in** the required info and click **Save**.
+5. Back to the **Credentials** tab, click on **Create credentials** > **OAuth client Id**.
+6. Choose **Web Application** and enter a **name** (e.g. Wiki).
+7. Under **Restrictions**, enter the **authorised origin domain** of your wiki (e.g. https://www.example.com) and the **authorised redirect URL** (full URL of your wiki followed by `/login/google/callback` as e.g.: `http://www.example.com/login/google/callback`)
+8. Click **Create** and take note of both the generated **Client ID** and **Client Secret**.
+
+Under the auth section of your config.yml, you can now enter the required info:
+
+
+```yaml
+google:
+  enabled: true
+  clientId: YOUR_CLIENT_ID
+  clientSecret: YOUR_CLIENT_SECRET
+```
 # Facebook
 The Facebook provider lets users login using their own Facebook login.
 
