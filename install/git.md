@@ -21,11 +21,27 @@ Supported authentication methods: **SSH and Basic**
 
 https://github.com/
 
-### Using SSH:
+### Using SSH (Repository):
 
-- From the **Settings** page, select **SSH Keys** in the sidebar.
-- Click the **New SSH Key** button.
+This method gives access only to the repository, which is the recommended way.
+
+- From the repository **Settings** page, select **Deploy Keys** in the sidebar.
+- Click the **Add deploy key** button.
+- Enter a **title** for the key (e.g. Wiki.js).
 - Enter your **public key** content in the textbox. Learn how to [create a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
+- Check the box [x] **Allow write access**.
+- **Save** the key.
+- Follow the instructions for SSH below.
+
+### Using SSH (Global):
+
+:warning: This method gives access to all repository owned by the account. Do not use unless you know what you're doing!
+
+- From the user dropdown menu, click **Settings** and select **SSH and GPG Keys** in the sidebar.
+- Click the **New SSH Key** button.
+- Enter a **title** for the key (e.g. Wiki.js).
+- Enter your **public key** content in the textbox. Learn how to [create a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
+- **Save** the key.
 - Follow the instructions for SSH below.
 
 ### Using Basic:
