@@ -16,7 +16,7 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 # C - Install dependencies
 3. In a command prompt, **run** the following command: `npm install --only=production && npm rebuild`
 	- On Linux, you are already in a command prompt! If you're in the GUI, launch a **Terminal** window and jump to the Wiki.js folder using the **cd** command. *e.g.* `cd /var/www/wiki`
-	- On Windows, navigate to the Wiki.js folder in File Explorer. Right-click in an empty area and choose **Open a command window here**.
+	- On Windows, navigate to the Wiki.js folder in File Explorer. While holding **Shift**, right-click in an empty area and choose **Open a command window here**. On Windows 10, you may instead have **Open a Powershell window here**.
 	- On macOS, launch the **Terminal** application and jump to the Wiki.js folder using the **cd** command. *e.g.* `cd /Library/WebServer/Documents/wiki`
 4. **Wait** for the dependencies installation to finish. If you see any error(s) in red, make sure you fix them first. Wiki.js will most likely crash or refuse to start if all dependencies are not properly installed. Note that you can safely ignore warnings (in yellow).
 	- If you get errors related to `node-gyp`, make sure you have the necessary build tools for Node.js native compilation as explained in the [prerequisites](prerequisites) page, then run the command again!
