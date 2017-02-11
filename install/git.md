@@ -110,12 +110,12 @@ git:
 
 ## Using SSH
 
-You must define the public (**publicKey**) and private key (**privateKey**) locations when using the SSH authentication method. If the private key is encrypted with a passphrase (which is recommended), put the passphrase in the **password** parameter. The username can be an email depending on the provider.
+You must define private key (**privateKey**) location when using the SSH authentication method. If the private key must **NOT** be protected by a passphrase. If you want to a passphrase, you must configure your ssh-agent to handle it. Wiki.js will use the standard ssh executable installed on your system.
 
 Example:
 ```yaml
 git:
-  url: git@server.com:org/repo
+  url: git@server.com:org/repo.git
   branch: master
   auth:
     type: ssh
