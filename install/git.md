@@ -90,17 +90,14 @@ git:
   branch: master
   auth:
 	
-    # Type: basic, oauth or ssh
+    # Type: basic or ssh
     type: ssh
 		
-    # Username / Email
+    # Only for Basic authentication:
     username: marty@doc.com
-		
-    # Password, OAuth token or private key passphrase:
     password: MartyMcFly88
 		
     # Only for SSH authentication:
-    publicKey: /etc/wiki/keys/git-public.pem
     privateKey: /etc/wiki/keys/git-private.pem
 		
     # Check for valid SSL certificate
@@ -118,40 +115,20 @@ You must define the public (**publicKey**) and private key (**privateKey**) loca
 Example:
 ```yaml
 git:
-  url: https://server.com/org/repo
+  url: git@server.com:org/repo
   branch: master
   auth:
     type: ssh
-    username: marty@doc.com
-    password: MartyMcFly88
-    publicKey: /etc/wiki/keys/git-public.pem
     privateKey: /etc/wiki/keys/git-private.pem
+		sslVerify: true
   signature:
     name: Marty
     email: marty@doc.com
 ```
 
-## Using OAuth
+## Using Basic (User/Pass or Token)
 
-The OAuth token must be set in the **password** parameter.
-
-Example:
-```yaml
-git:
-  url: https://server.com/org/repo
-  branch: master
-  auth:
-    type: oauth
-    username: marty@doc.com
-    password: abcdef1234567890abcdef1234567890
-  signature:
-    name: Marty
-    email: marty@doc.com
-```
-
-## Using Basic (User/Pass)
-
-Using a standard username / password combination. Make sure to use a long and strong password.
+Using a standard username and password/token combination. Make sure to use a long and strong password.
 
 Example:
 ```yaml
@@ -162,6 +139,7 @@ git:
     type: basic
     username: marty@doc.com
     password: MartyMcFly88
+		sslVerify: true
   signature:
     name: Marty
     email: marty@doc.com
