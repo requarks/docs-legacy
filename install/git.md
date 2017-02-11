@@ -39,7 +39,7 @@ https://github.com/
 
 Public: **Yes (free)**  
 Private: **Yes (free)**  
-Supported authentication methods: **SSH, OAuth and Basic**
+Supported authentication methods: **SSH and Basic**
 
 https://gitlab.com/
 
@@ -47,7 +47,7 @@ https://gitlab.com/
 
 Public: **Yes (free, up to 5 users)**  
 Private: **Yes (free, up to 5 users)**  
-Supported authentication methods: **SSH, OAuth and Basic**
+Supported authentication methods: **SSH and Basic**
 
 https://bitbucket.org/
 
