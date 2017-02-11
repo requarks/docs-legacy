@@ -23,7 +23,7 @@ https://github.com/
 
 ### Using SSH (Repository):
 
-This method gives access only to the repository, which is the recommended way.
+:white_check_mark: This method gives access only to the repository, which is the recommended way.
 
 - From the repository **Settings** page, select **Deploy Keys** in the sidebar.
 - Click the **Add deploy key** button.
