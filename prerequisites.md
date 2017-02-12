@@ -57,7 +57,9 @@ Read the [Database Guide](/install/database) for more information.
 ## An empty Git repository
 
 All content created in the Wiki is saved locally and synced regularly to a remote Git repository.  
-Any Git repository will do, as long as the Wiki can connect to it using **basic**, **oauth** or **ssh** authentication.
+Any Git repository will do, as long as the Wiki can connect to it using **basic** or **ssh** authentication.
+
+While not recommended, it is possible to use Wiki.js in a complete offline mode with no remote sync.
 
 Read the [Git Repository Guide](/install/git) for more information.
 
