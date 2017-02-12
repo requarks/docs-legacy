@@ -150,3 +150,26 @@ You can use an existing repository (from an existing Wiki.js installation or any
 - All markdown files (.md) and folders use the hyphen `-` to separate words. e.g. `sample-file-tutorial.md`
 
 You can leave the `README.md` file as is; it will be ignored by Wiki.js.
+
+# Disable remote sync
+It is **highly recommended** to have remote sync enabled for backups and changes tracking purposes. It can however be disabled should you want to by setting `git: false` in your `config.yml` file:
+
+
+```yaml
+# Remote sync disabled:
+
+git: false
+
+# Remote sync enabled:
+
+git:
+  url: https://github.com/Organization/Repo
+  branch: master
+  auth:
+    type: ssh
+    privateKey: /etc/wiki/keys/git.pem
+    sslVerify: true
+  signature:
+    name: Marty
+    email: marty@example.com
+```
