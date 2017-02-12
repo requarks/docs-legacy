@@ -26,3 +26,15 @@ To authorize a social user to login to Wiki.js, click on the **Create / Authoriz
 ![Authorize User](/uploads/screenshots/ss-users-authorize.jpg "Authorize User")
 
 Finally, click the **Authorize User** button.
+
+# Edit a user
+To edit information about a user, click on its name from the **Users** page list.
+
+Note that the email address cannot be modified as this is the unique identifier of the user. If the email address of a user changed, you must create a new account and delete the old one if necessary.
+
+Read the [Manage Access Rights](/admin-guide/manage-access-rights) page to learn how to provide the necessary access rights to a user.
+
+# Delete a user
+To delete (or de-authorize) a user, click on its name from the **Users** page list.
+
+Click on the red **Delete Account** button at the bottom right of the page.
