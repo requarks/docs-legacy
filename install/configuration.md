@@ -45,7 +45,7 @@ Wiki.js works with pretty much any Git repository. See the [Git repository guide
 |---------------------|:--------:|--------------------------------------------------------------------------------------------------------------------------------------|:----------------:|
 | **git.url**               | yes | The full URL to your Git repository where all content will be synced. | |
 | **git.branch**            | yes | The branch of your Git repository to sync. | master |
-| **git.auth.type**         | yes | The type of authentication to use when connecting to your Git repository. Valid values: `basic`, `oauth` or `ssh` | basic |
+| **git.auth.type**         | yes | The type of authentication to use when connecting to your Git repository. Valid values: `basic` or `ssh` | basic |
 | **git.auth.username**     | no  | The username to use when authenticating with your Git repository | |
 | **git.auth.password**     | no  | The password (basic), the OAuth token (oauth) or the private key passphrase (ssh) to use when authenticating with your Git repository | |
 | **git.auth.publicKey**    | no  | *(ssh only)* The full path to the public key (.pem) to use when authenticating with your Git repository | |
