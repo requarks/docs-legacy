@@ -51,5 +51,5 @@ Wiki.js works with pretty much any Git repository. See the [Git repository guide
 | **git.auth.publicKey**    | no  | *(ssh only)* The full path to the public key (.pem) to use when authenticating with your Git repository | |
 | **git.auth.privateKey**   | no  | *(ssh only)* The full path to the private key (.pem) to use when authenticating with your Git repository | |
 | **git.auth.sslVerify**    | no  | *(ssh only)* Should the server check for a valid SSL certificate when connecting to your Git repository. | true |
-| **git.signature .name**   | yes | The name to use as the author when pushing changes to your Git repository. | |
+| **git.signature.name**    | yes | The name to use as the author when pushing changes to your Git repository. | |
 | **git.signature.email**   | yes | The email address to use as the author when pushing changes to your Git repository. | |
