@@ -18,6 +18,7 @@
 
 # Admin Guide
 - [Manage Users](admin-guide/manage-users)
+- [Manage Access Rights](/admin-guide/manage-access-rights)
 # User Guide
 - [Change Account Password](user-guide/change-password)
 
