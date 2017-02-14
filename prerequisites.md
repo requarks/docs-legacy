@@ -56,9 +56,9 @@ Read the [Database Guide](/install/database) for more information.
 
 ## Git
 
-:information_source: **Git** `2.11.0` **or later is required.**
+:information_source: **Git** `2.11.0` **or later is required.** There is a bug in earlier versions causing the remote sync to fail during initialization.
 
-Linux usually comes with Git pre-installed. However, it is most likely an outdated version.
+Even though Linux usually comes with Git pre-installed, it is most likely an outdated version. You can verify the currently installed version by running `git --version`
 
 You can download the [latest version](https://git-scm.com/downloads) from the official Git website.
 
