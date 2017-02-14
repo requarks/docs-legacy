@@ -54,6 +54,14 @@ MongoDB is a free and open-source cross-platform document-oriented database prog
 
 Read the [Database Guide](/install/database) for more information.
 
+## Git
+
+:information_source: **Git** `2.11.0` **or later is required.**
+
+Linux usually comes with Git pre-installed. However, it is most likely an outdated version.
+
+You can download the [latest version](https://git-scm.com/downloads) from the official Git website.
+
 ## An empty Git repository
 
 All content created in the Wiki is saved locally and synced regularly to a remote Git repository.  
