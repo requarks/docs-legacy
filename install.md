@@ -56,7 +56,7 @@ By default, Wiki.js will not start automatically following a system reboot. In o
 10. Finally, **save the current pm2 configuration** by running the command: `pm2 save`
 
 # Notes
-### Stop
+### Stop Wiki.js
 To stop Wiki.js, run the command: 
 ```shell
 # On Linux, Mac and Windows running a terminal / traditional command prompt:
@@ -66,7 +66,7 @@ wiki stop
 .\wiki stop
 ```
 
-### View version
+### View installed version
 To view the currently installed version, run the command:  
 ```shell
 # On Linux, Mac and Windows running a terminal / traditional command prompt:
