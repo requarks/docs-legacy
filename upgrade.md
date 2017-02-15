@@ -6,6 +6,17 @@
 - No content will be lost. However, users should stop editing content and save their changes before starting the upgrade.
 - Read the release notes of the latest release carefully, in case special upgrade instructions steps are provided.
 # Upgrade
+## Using the web interface:
+1. Under **Account** > **System Settings**, click the **Upgrade** button.
+2. Wait for the upgrade operation to complete. You're done :grinning:
+
+## Using npm:
+1. From a terminal / command prompt, navigate to the folder where Wiki.js is installed.
+2. Run the following command (exactly as displayed): `npm install wiki.js@latest`
+3. There's no step 3, you're done.
+
+## Manually:
+
 > :information_source: **Glossary**  
 > In the instructions below, the following terms refer to:
 > 
