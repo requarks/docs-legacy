@@ -7,7 +7,7 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 # B - Installation
 ## The easy way, using npm
 1. **Create an empty folder** where Wiki.js should be installed.
-2. In a command prompt, **run** the following command (exactly as displayed): `npm install wiki.js@latest`
+2. From this folder, in a command prompt, **run** the following command (exactly as displayed): `npm install wiki.js@latest`
 3. **Wait** for the installation to complete. If you see any error(s) in red, make sure you fix them first. Wiki.js will most likely crash or refuse to start if all dependencies are not properly installed. Note that you can safely ignore warnings (in yellow).
 	- If you get errors related to `node-gyp`, make sure you have the necessary build tools for Node.js native compilation as explained in the [prerequisites](prerequisites) page, then run the command again!
 4. Continue reading from section **C - Configuration** below.
@@ -35,7 +35,8 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 # D - Run Wiki.js
 You can now start Wiki.js and make sure everything runs smoothly:
 
-7. In a command prompt, **run** the following command: `node wiki start`
+7. In a command prompt, **run** the following command: `wiki start`
+	- If using a Powershell prompt (default on Windows 10), you must instead use the `.\wiki start` command.
 	- **Wait** for the command to complete. This can take several seconds.
 	- **Browse** to your Wiki from your browser. You should see the Wiki.js welcome screen.
 
