@@ -45,7 +45,7 @@ You can now start Wiki.js and make sure everything runs smoothly:
 # E - Run at startup (optional)
 By default, Wiki.js will not start automatically following a system reboot. In order to make it start on boot, we need to setup pm2 as a global npm module and set it as a startup service:
 
-8. Still in a command prompt, **install pm2** by running the following command: `npm install -g pm2`
+8. Still in a command prompt, **install pm2** globally by running the following command: `npm install -g pm2`
 	- Wait for the installation to complete.
 9. We now need to tell pm2 to configure itself **as a startup service**.
 	- On Linux/macOS, simply run the following command: `pm2 startup`
