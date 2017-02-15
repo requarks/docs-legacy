@@ -57,9 +57,21 @@ By default, Wiki.js will not start automatically following a system reboot. In o
 
 # Notes
 ### Stop
-To stop Wiki.js, run the command: `wiki stop`  
-- If using a Powershell prompt (default on Windows 10), you must instead use the `.\wiki stop` command.
+To stop Wiki.js, run the command: 
+```shell
+# On Linux, Mac and Windows running a terminal / traditional command prompt:
+wiki stop
+
+# On Windows, if using a Powershell prompt, you must instead use the following syntax:
+.\wiki stop
+```
 
 ### View version
-To view the currently installed version, run the command: `wiki -V`  
-- If using a Powershell prompt (default on Windows 10), you must instead use the `.\wiki -V` command.
+To view the currently installed version, run the command:  
+```shell
+# On Linux, Mac and Windows running a terminal / traditional command prompt:
+wiki -V
+
+# On Windows, if using a Powershell prompt, you must instead use the following syntax:
+.\wiki -V
+```
