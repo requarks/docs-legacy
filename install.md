@@ -56,6 +56,8 @@ By default, Wiki.js will not start automatically following a system reboot. In o
 10. Finally, **save the current pm2 configuration** by running the command: `pm2 save`
 
 # Notes
-To stop Wiki.js, run the command: `node wiki stop`
+To stop Wiki.js, run the command: `wiki stop`
+	- If using a Powershell prompt (default on Windows 10), you must instead use the `.\wiki stop` command.
 
-To view the currently installed version, run the command: `node wiki -V`
+To view the currently installed version, run the command: `wiki -V`
+	- If using a Powershell prompt (default on Windows 10), you must instead use the `.\wiki -V` command.
