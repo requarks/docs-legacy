@@ -120,7 +120,7 @@ git:
   auth:
     type: ssh
     privateKey: /etc/wiki/keys/git-private.pem
-		sslVerify: true
+    sslVerify: true
   signature:
     name: Marty
     email: marty@doc.com
@@ -139,7 +139,7 @@ git:
     type: basic
     username: marty@doc.com
     password: MartyMcFly88
-		sslVerify: true
+    sslVerify: true
   signature:
     name: Marty
     email: marty@doc.com
@@ -168,7 +168,7 @@ git:
   auth:
     type: ssh
     privateKey: /etc/wiki/keys/git.pem
-		sslVerify: true
+    sslVerify: true
   signature:
     name: Marty
     email: marty@example.com
