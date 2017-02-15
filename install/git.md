@@ -168,7 +168,7 @@ git:
   auth:
     type: ssh
     privateKey: /etc/wiki/keys/git.pem
-    sslVerify: true
+		sslVerify: true
   signature:
     name: Marty
     email: marty@example.com
