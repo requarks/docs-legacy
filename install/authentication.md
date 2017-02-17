@@ -8,7 +8,7 @@ Wiki.js supports multiple authentication providers. You may choose to enable one
 # Local
 The local provider stores user accounts in the wiki database. It does not rely on any 3rd party service and accounts are unique to your wiki.
 
-This is the most simple solution and is enabled by default.
+This is the most simple solution and **is enabled by default**.
 # Microsoft Account
 The Microsoft Account provider lets users login using their own Microsoft account.
 
