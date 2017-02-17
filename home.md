@@ -21,4 +21,5 @@
 - [Change Account Password](user-guide/change-password)
 
 # Contributing
-- todo
+- [GitHub repository](https://github.com/Requarks/wiki)
+- [Report a Bug / Suggestion](https://github.com/Requarks/wiki/issues)
