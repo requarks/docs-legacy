@@ -29,4 +29,4 @@ would result in:
 > multiple lines  
 > of text!
 
-> You can even include **styling** in your text, or **icons** :apple:
+> You can even include **styling** *in your text*, or **icons** :apple:
