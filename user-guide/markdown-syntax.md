@@ -27,3 +27,30 @@ To make a text in italic, simply put double tildes `~~` before and after the des
 `Something ~~not cool~~`  
 becomes  
 Something ~~not cool~~
+
+# Headers
+
+# Lists
+
+# Links
+# Images
+
+# Code
+
+# Tables
+
+# Blockquotes
+Blockquotes are explained in details in the [Editor Blockquotes](https://docs.wiki.requarks.io/user-guide/blockquotes) page.
+
+# Horizontal Rule
+Simply put three (3) of the following characters to create an horizontal rule: `***` (asterisks) or `---` (hyphens) or `___` (underscores)
+
+Which results in:
+
+---
+***
+===
+
+# Line breaks
+
+# Icons (emojis)
