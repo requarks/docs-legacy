@@ -48,6 +48,7 @@ Simply put three (3) of the following characters to create an horizontal rule: `
 Which results in:
 
 Above rule
+
 ---
 Below rule
 
