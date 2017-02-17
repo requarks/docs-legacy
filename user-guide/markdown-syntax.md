@@ -43,13 +43,13 @@ Something ~~not cool~~
 Blockquotes are explained in details in the [Editor Blockquotes](https://docs.wiki.requarks.io/user-guide/blockquotes) page.
 
 # Horizontal Rule
-Simply put three (3) of the following characters to create an horizontal rule: `***` (asterisks) or `---` (hyphens) or `___` (underscores)
+Simply put three (3) of the following characters to create an horizontal rule: `***` (asterisks) or `---` (hyphens)
 
 Which results in:
 
+Above rule
 ---
-***
-===
+Below rule
 
 # Line breaks
 
