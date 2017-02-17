@@ -20,3 +20,10 @@ To make a text in italic, simply put a single asterisk `*` before and after the 
 becomes  
 Some *italic* text
 
+## Strikethrough
+
+To make a text in italic, simply put double tildes `~~` before and after the desired text:
+
+`Something ~~not cool~~`  
+becomes  
+Something ~~not cool~~
