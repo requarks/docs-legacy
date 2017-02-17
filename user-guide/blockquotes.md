@@ -48,6 +48,8 @@ Various styling options are available:
 > Danger
 {.is-danger}
 
+Simply add the desired styling class below your blockquote:
+
 ```markdown
 > Default
 
