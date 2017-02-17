@@ -7,6 +7,8 @@ A blockquote is originally used to define a section that is quoted from another 
 # How to define a blockquote
 Simply begin your line of text with a **>**
 
+For example, the following markdown text:
+
 ```markdown
 > A line of text
 
@@ -16,3 +18,13 @@ Simply begin your line of text with a **>**
 
 > You can even include **styling** in your text, or **icons** :apple:
 ```
+
+would result in:
+
+> A line of text
+
+> A blockquote with
+> multiple lines
+> of text!
+
+> You can even include **styling** in your text, or **icons** :apple:
