@@ -19,6 +19,7 @@
 - [Manage Access Rights](/admin-guide/manage-access-rights)
 # User Guide
 - [Change Account Password](user-guide/change-password)
+- [Editor Keyboard Shortcuts](user-guide/keyboard-shortcuts)
 
 # Contributing
 - [GitHub repository](https://github.com/Requarks/wiki)
