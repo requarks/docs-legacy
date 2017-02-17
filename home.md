@@ -21,6 +21,7 @@
 - [Change Account Password](user-guide/change-password)
 - [Editor Blockquotes](user-guide/blockquotes)
 - [Editor Keyboard Shortcuts](user-guide/keyboard-shortcuts)
+- [Markdown Syntax](user-guide/markdown-syntax)
 
 # Contributing
 - [GitHub repository](https://github.com/Requarks/wiki)
