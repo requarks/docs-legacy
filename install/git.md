@@ -103,6 +103,34 @@ Supported authentication methods: **SSH and Basic**
 
 https://visualstudio.com/
 
+### Using SSH:
+
+- From User dropdown menu, select **Security**.
+- Click on **SSH Public Keys** from the left sidebar.
+- Click on the **Add** button.
+- Enter a **title** for the key (e.g. Wiki.js).
+- Enter your **public key** content in the textbox. Learn how to [create a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
+- **Save** the key.
+- Follow the instructions for SSH below.
+
+### Using Basic (Personal Access Tokens):
+
+- From User dropdown menu, select **Security**.
+- Click on **Personal Access Tokens** from the left sidebar.
+- Click on the **Add** button.
+- Enter a **description** for the key (e.g. Wiki.js) and set the desired **expiration date**.
+- Check [x] the follow authorized scopes: **Code (read, write and manage)** and **Code (status)**.
+- **Create** the token.
+- Follow the instructions for Basic below.
+
+### Using Basic (Alternate Credentials):
+
+- From User dropdown menu, select **Security**.
+- Click on **Personal Authentication Credentials** from the left sidebar.
+- Check [x] the **Enable alternate authentication credentials** checkbox.
+- Enter a **username** and **password**.
+- **Save** the login.
+- Follow the instructions for Basic below.
 # Configure Wiki.js
 Now that your repository is setup using the instructions above, it's time to enter the info in the configuration file. Different parameters are required depending on the authentication type:
 
