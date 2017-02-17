@@ -4,8 +4,6 @@
 # Overview
 - [Homepage](https://wiki.requarks.io/)
 - [Features](https://wiki.requarks.io/#features)
-- [Screenshots](screenshots)
-- [Comparisons](comparisons)
 
 # Getting Started
 - [Prerequisites](prerequisites)
