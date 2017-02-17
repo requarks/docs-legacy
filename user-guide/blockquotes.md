@@ -13,7 +13,8 @@ For example, the following markdown text:
 > A line of text
 
 > A blockquote with
-> multiple lines
+> 
+> multiple lines  
 > of text!
 
 > You can even include **styling** in your text, or **icons** :apple:
