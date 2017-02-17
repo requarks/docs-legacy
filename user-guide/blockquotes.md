@@ -30,3 +30,20 @@ would result in:
 > of text!
 
 > You can even include **styling** *in your text*, or **icons** :apple:
+
+# Available stylings
+Various styling options are available:
+
+> Default
+
+> Info
+{.is-info}
+
+> Success
+{.is-success}
+
+> Warning
+{.is-warning}
+
+> Danger
+{.is-danger}
