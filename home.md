@@ -19,6 +19,7 @@
 - [Manage Access Rights](/admin-guide/manage-access-rights)
 # User Guide
 - [Change Account Password](user-guide/change-password)
+- [Editor Blockquotes](user-guide/blockquotes)
 - [Editor Keyboard Shortcuts](user-guide/keyboard-shortcuts)
 
 # Contributing
