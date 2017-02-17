@@ -59,6 +59,34 @@ Supported authentication methods: **SSH and Basic**
 
 https://gitlab.com/
 
+### Using SSH (Repository):
+
+:white_check_mark: This method gives access only to the repository, which is the recommended way.
+
+- From the a project page, select **Deploy Keys** from the Settings dropdown menu.
+- Enter a **title** for the key (e.g. Wiki.js).
+- Enter your **public key** content in the textbox. Learn how to [create a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
+- Check the box [x] **Write access allowed**.
+- **Save** the key.
+- Follow the instructions for SSH below.
+
+### Using SSH (Global):
+
+:warning: This method gives access to all repository owned by the account. Do not use unless you know what you're doing!
+
+- From the user dropdown menu, click **Settings** and select **SSH Keys** from the top menu.
+- Enter your **public key** content in the textbox. Learn how to [create a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
+- Enter a **title** for the key (e.g. Wiki.js).
+- **Save** the key.
+- Follow the instructions for SSH below.
+
+### Using Basic:
+
+- From the **Settings** page, select **Access Tokens** from the top menu.
+- Enter a **name** and **expiration** for this token (e.g. Wiki.js) and enable all permission scopes.
+- **Save** the token.
+- Follow the instructions for Basic below.
+
 ## Bitbucket
 
 Public: **Yes (free, up to 5 users)**  
