@@ -8,19 +8,19 @@ Markdown is a lightweight markup language with plain text formatting syntax desi
 ## Bold
 To make a text in bold, simply put double asterisks `**` before and after the desired text:
 
-`To **boldly** go` -> To **boldly** go
+`To **boldly** go` :arrow_forward: To **boldly** go
 
 ## Italic
 
 To make a text in italic, simply put a single asterisk `*` before and after the desired text:
 
-`Some *italic* text` -> Some *italic* text
+`Some *italic* text` :arrow_forward: Some *italic* text
 
 ## Strikethrough
 
 To make a text in italic, simply put double tildes `~~` before and after the desired text:
 
-`Something ~~not cool~~` -> Something ~~not cool~~
+`Something ~~not cool~~` :arrow_forward: Something ~~not cool~~
 
 # Headers
 
