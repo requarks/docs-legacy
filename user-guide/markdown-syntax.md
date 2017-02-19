@@ -47,19 +47,15 @@ To define a line as a header, simply put a hash sign **#** at the beginning. The
 Example:
 
 ```
-# Section A Header
+# Section A
+
+## Sub-section A.1
+
+### Sub-sub-section A.1.1
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at sapien at odio fringilla lobortis.
 
-## Sub-section A.1 Header
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at sapien at odio fringilla lobortis.
-
-### Sub-sub-section A.1.1 Header
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at sapien at odio fringilla lobortis.
-
-# Section B Header
+# Section B
 
 Etc...
 ```
