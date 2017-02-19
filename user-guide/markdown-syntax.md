@@ -64,7 +64,8 @@ First line hereSecond line here
 
 ---
 
-**A line break can be forced by adding 2 spaces at the end of the line.** This will indicate to Markdown that the next line should be a new line.
+**A line break can be forced by adding 2 spaces at the end of the line.**  
+This will indicate to Markdown that the next line should be a new line.
 
 To create a new paragrah, simply press **Enter** twice.
 
