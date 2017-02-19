@@ -23,6 +23,15 @@ To make a text in italic, simply put double tildes `~~` before and after the des
 `Something ~~not cool~~` :arrow_right: Something ~~not cool~~
 
 # Headers
+Headers are useful to break a long page into sections. For example, the page you are currently reading has multiple headers and sub-headers:
+
+- What is Markdown
+- Basics
+	- Bold
+	- Italic
+	- Strikethrough
+- Headers
+- etc...
 
 # Lists
 
