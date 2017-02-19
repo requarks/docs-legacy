@@ -35,8 +35,8 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 # D - Run Wiki.js
 You can now start Wiki.js and make sure everything runs smoothly:
 
-7. In a command prompt, **run** the following command: `wiki start`
-	- If using a Powershell prompt (default on Windows 10), you must instead use the `.\wiki start` command.
+7. In a command prompt, **run** the following command: `node wiki start`
+	- If using a Powershell prompt (default on Windows 10), you can instead use the `.\wiki start` command.
 	- **Wait** for the command to complete. This can take several seconds.
 	- **Browse** to your Wiki from your browser. You should see the Wiki.js welcome screen.
 
@@ -60,9 +60,9 @@ By default, Wiki.js will not start automatically following a system reboot. In o
 To stop Wiki.js, run the command: 
 ```shell
 # On Linux, Mac and Windows running a terminal / traditional command prompt:
-wiki stop
+node wiki stop
 
-# On Windows, if using a Powershell prompt, you must instead use the following syntax:
+# On Windows, if using a Powershell prompt, you can instead use the following syntax:
 .\wiki stop
 ```
 
@@ -70,8 +70,8 @@ wiki stop
 To view the currently installed version, run the command:  
 ```shell
 # On Linux, Mac and Windows running a terminal / traditional command prompt:
-wiki -V
+node wiki -V
 
-# On Windows, if using a Powershell prompt, you must instead use the following syntax:
+# On Windows, if using a Powershell prompt, you can instead use the following syntax:
 .\wiki -V
 ```
