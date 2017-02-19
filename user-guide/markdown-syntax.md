@@ -41,11 +41,7 @@ Simply put **three (3)** of the following characters to create an horizontal rul
 
 Which results in:
 
-ABOVE HORIZONTAL RULE
-
 ---
-BELOW HORIZONTAL RULE
-
 # Line breaks
 Markdown does not handle line breaks the same way most editors do. There're a few differences to be aware of:
 
