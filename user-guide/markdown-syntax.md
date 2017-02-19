@@ -47,7 +47,24 @@ ABOVE HORIZONTAL RULE
 BELOW HORIZONTAL RULE
 
 # Line breaks
+Markdown does not handle line breaks the same way most editors do. There're a few differences to be aware of:
 
+**A single line break will not produce a line break once displayed.**
+
+*For example, the following content:*
+
+```markdown
+First line here
+Second line here
+```
+
+*will be displayed as:*
+
+First line hereSecond line here
+
+**A line break can be forced by adding 2 spaces at the end of the line.** This will indicate to Markdown that the next line should be a new line.
+
+To create a new paragrah, simply press **Enter** twice.
 
 # Icons (emojis)
 An extensive list of emojis can be easily inserted into your content. Simply type the emoji code corresponding to the icon you want to use. E.g:
