@@ -33,6 +33,28 @@ Headers are useful to break a long page into sections. For example, the page you
 - Headers
 - etc...
 
+To define a line as a header, simply put a hash sign **#** at the beginning. The amount of consecutive # you insert defines the level of the header.
+
+```
+# Section A Header
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at sapien at odio fringilla lobortis.
+
+## Sub-section A.1 Header
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at sapien at odio fringilla lobortis.
+
+### Sub-sub-section A.1.1 Header
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at sapien at odio fringilla lobortis.
+
+# Section B Header
+
+Etc...
+```
+
+In the above example, Section A and B are top level headers and Section A has a sub-header (A.1), which contains a sub-header (A.1.1).
+
 # Lists
 
 # Links
