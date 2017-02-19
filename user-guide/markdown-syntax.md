@@ -42,6 +42,8 @@ Simply put **three (3)** of the following characters to create an horizontal rul
 Which results in:
 
 ---
+
+Always put an empty line above the horizontal rule. Otherwise, Markdown will consider the above line as an header (this is an alternate behavior of Markdown).
 # Line breaks
 Markdown does not handle line breaks the same way most editors do. There're a few differences to be aware of:
 
