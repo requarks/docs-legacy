@@ -50,3 +50,6 @@ BELOW HORIZONTAL RULE
 
 
 # Icons (emojis)
+An extensive list of emojis can be easily inserted into your content. Simply type the emoji code corresponding to the icon you want to use. E.g:
+
+`:apple:` :apple:
