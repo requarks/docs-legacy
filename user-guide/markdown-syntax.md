@@ -52,4 +52,11 @@ BELOW HORIZONTAL RULE
 # Icons (emojis)
 An extensive list of emojis can be easily inserted into your content. Simply type the emoji code corresponding to the icon you want to use. E.g:
 
-`:apple:` :apple:
+`:apple:` :apple:  
+`:date:` :date:
+
+All emoji codes begins and ends with a colon `:`
+
+You can see the full list of available emojis: [http://www.webpagefx.com/tools/emoji-cheat-sheet/](http://www.webpagefx.com/tools/emoji-cheat-sheet/)
+
+Note that the emojis will not display exactly as shown in the above link. This is only a reference page.
