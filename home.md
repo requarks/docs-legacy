@@ -13,6 +13,7 @@
 	- [Database](install/database)
 	- [Git](install/git)
 - [Upgrade](upgrade)
+- [Troubleshooting](troubleshooting)
 
 # Admin Guide
 - [Manage Users](admin-guide/manage-users)
