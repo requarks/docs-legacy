@@ -1,6 +1,19 @@
 <!-- TITLE: Troubleshooting -->
 <!-- SUBTITLE: A collection of common issues / errors and their possible solutions. -->
 
+# General Info
+Wiki.js runs using background processes, which means you may not see an error right away. The best way to look for errors / potential issues is by running these useful commands:
+
+```shell
+# View status of Wiki.js:
+pm2 status wiki
+
+# View active logs of Wiki.js:
+pm2 logs wiki --lines 100
+```
+
+Output and error logs are also available in the `/logs` folder located in your Wiki.js installation folder.
+
 # Wiki.js won't start
 ### Error: Listening on port XX requires elevated privileges!
 
