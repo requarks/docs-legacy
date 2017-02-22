@@ -4,7 +4,7 @@
 # General Info
 Wiki.js runs using background processes, which means you may not see an error right away. The best way to look for errors / potential issues is by running these useful commands:
 
-```shell
+```sh
 # View status of Wiki.js:
 pm2 status wiki
 
