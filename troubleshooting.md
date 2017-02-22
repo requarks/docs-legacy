@@ -33,3 +33,9 @@ sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-po
 ```
 
 **Solution C**: Use a web server in front of Wiki.js. For example, use nginx to listen to port 80 / 443 and proxy all requests to Wiki.js running on a higher port (e.g. 3000).
+
+### Error: Port XX is already in use!
+
+**Cause**: Another program is already listening to this port or an orphaned Wiki.js process was not closed properly.
+
+**Solutions**: Make sure there are no orphaned Wiki.js process still running (look for **node** instances on Linux and **node.exe** processes on Windows). Look for applications that could be using this port (web servers, http applications, etc.)
