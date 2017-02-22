@@ -9,6 +9,7 @@
 **Solution A**: Allow the node process to safely access the port requested:
 ```shell
 # Ubuntu / Debian
+
 sudo apt-get install libcap2-bin
 sudo setcap cap_net_bind_service=+ep `readlink -f \`which node\``
 ```
@@ -17,3 +18,5 @@ sudo setcap cap_net_bind_service=+ep `readlink -f \`which node\``
 ```shell
 sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000
 ```
+
+**Solution C**: Use a web server in front of Wiki.js. For example, use nginx to listen to port 80 / 443 and proxy all requests to Wiki.js running on a higher port (e.g. 3000).
