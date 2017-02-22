@@ -20,7 +20,7 @@ Output and error logs are also available in the `/logs` folder located in your W
 **Cause**: Some Linux installations prevent Node.js from binding to ports in the lower range (e.g. < 1024). This occurs if you set a port such as **80** in config.yml.
 
 **Solution A**: Allow the node process to safely access the port requested:
-```shell
+```sh
 # Ubuntu / Debian
 
 sudo apt-get install libcap2-bin
@@ -28,7 +28,7 @@ sudo setcap cap_net_bind_service=+ep `readlink -f \`which node\``
 ```
 
 **Solution B**: Create a port redirection rule: *(In the example below, you must set the port to 3000 in config.yml)*
-```shell
+```sh
 sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000
 ```
 
