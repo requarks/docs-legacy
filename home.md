@@ -4,6 +4,7 @@
 # Overview
 - [Homepage](https://wiki.requarks.io/)
 - [Features](https://wiki.requarks.io/#features)
+- [Changelog](https://github.com/Requarks/wiki/blob/master/CHANGELOG.md)
 
 # Getting Started
 - [Prerequisites](prerequisites)
