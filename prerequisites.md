@@ -37,8 +37,8 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js 
 
 Your system must be able to compile native Node.js addons in order to successfully install Wiki.js dependencies:
 
-- On **Ubuntu/Debian Linux**: `sudo apt-get install -y build-essential && npm install -g node-gyp`
-- On **RedHat/CentOS/Fedora Linux**: `yum install gcc-c++ make && npm install -g node-gyp`
+- On **Ubuntu/Debian Linux**: `sudo apt-get install -y build-essential python2.7 python-pip && npm install -g node-gyp`
+- On **RedHat/CentOS/Fedora Linux**: `yum install gcc-c++ make && npm install -g node-gyp` *(You must also install Python 2.7 manually)*
 - On **Windows**: From an elevated command prompt: `npm install -g windows-build-tools node-gyp`
 - On **macOS**: Install the `Command Line Tools` via Xcode *(Xcode -> Preferences -> Downloads)*. Then run command `npm install -g node-gyp`
 
