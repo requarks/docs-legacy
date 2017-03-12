@@ -40,7 +40,7 @@ The Google ID provider lets users login using their own Google ID.
 2. **Create** a new Project (e.g. Wiki).
 3. From the sidebar menu, click **API Manager**.
 4. Click on the **Enable API** button.
-5. Enable the on **Google+ API**.
+5. Enable the **Google+ API**.
 5. From the sidebar menu, click **Credentials**.
 4. Under the **OAuth consent screen** tab, **fill in** the required info and click **Save**.
 5. Back to the **Credentials** tab, click on **Create credentials** > **OAuth client Id**.
