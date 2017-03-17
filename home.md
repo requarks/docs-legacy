@@ -2,9 +2,9 @@
 <!-- SUBTITLE: Documentation for all Requarks projects. -->
 
 # Wiki.js
-- [Documentation](wiki)
+An open source, modern and powerful wiki app built on Node.js, Git and Markdown. ([Official Website](https://wiki.requarks.com))
 
-- [Official Website](https://wiki.requarks.com)
+- [Documentation](wiki)
 
 # Orchestrator
 *Coming soon*
