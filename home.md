@@ -1,4 +1,4 @@
-<!-- TITLE: Requarks Projects -->
+<!-- TITLE: Requarks -->
 <!-- SUBTITLE: Documentation for all Requarks projects. -->
 
 # Wiki.js
