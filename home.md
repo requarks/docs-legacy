@@ -2,8 +2,9 @@
 <!-- SUBTITLE: Documentation for all Requarks projects. -->
 
 # Wiki.js
-- [Documentation](/documentation)
-- [Website](https://wiki.requarks.com)
+- [Documentation](wiki)
+
+- [Official Website](https://wiki.requarks.com)
 
 # Orchestrator
 *Coming soon*
