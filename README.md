@@ -1,4 +1,4 @@
-# wiki-docs
-Documentation repository for Wiki.js
+# Docs
+Documentation repository for Wiki.js.
 
-View [full site](https://wiki.requarks.io/) instead.
+View [full site](https://docs.requarks.io/) instead.
