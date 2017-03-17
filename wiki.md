@@ -7,23 +7,23 @@
 - [Changelog](https://github.com/Requarks/wiki/blob/master/CHANGELOG.md)
 
 # Getting Started
-- [Prerequisites](prerequisites)
-- [Install](install)
-	- [Configuration File](install/configuration)
-	- [Authentication](install/authentication)
-	- [Database](install/database)
-	- [Git](install/git)
-- [Upgrade](upgrade)
-- [Troubleshooting](troubleshooting)
+- [Prerequisites](/wiki/prerequisites)
+- [Install](/wiki/install)
+	- [Configuration File](/wiki/install/configuration)
+	- [Authentication](/wiki/install/authentication)
+	- [Database](/wiki/install/database)
+	- [Git](/wiki/install/git)
+- [Upgrade](/wiki/upgrade)
+- [Troubleshooting](/wiki/troubleshooting)
 
 # Admin Guide
-- [Manage Users](admin-guide/manage-users)
-- [Manage Access Rights](/admin-guide/manage-access-rights)
+- [Manage Users](/wiki/admin-guide/manage-users)
+- [Manage Access Rights](/wiki/admin-guide/manage-access-rights)
 # User Guide
-- [Change Account Password](user-guide/change-password)
-- [Editor Blockquotes](user-guide/blockquotes)
-- [Editor Keyboard Shortcuts](user-guide/keyboard-shortcuts)
-- [Markdown Syntax](user-guide/markdown-syntax)
+- [Change Account Password](/wiki/user-guide/change-password)
+- [Editor Blockquotes](/wiki/user-guide/blockquotes)
+- [Editor Keyboard Shortcuts](/wiki/user-guide/keyboard-shortcuts)
+- [Markdown Syntax](/wiki/user-guide/markdown-syntax)
 
 # Contributing
 - [GitHub repository](https://github.com/Requarks/wiki)
