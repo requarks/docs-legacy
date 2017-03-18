@@ -7,6 +7,7 @@
 - **CTRL+L**: Start a bullet list.
 - **CTRL+ALT+L**: Start a numbered list.
 
+
 - **CTRL+S**: Save and view processed page.
 
 *More shortcuts coming soon.*
