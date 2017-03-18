@@ -2,14 +2,14 @@
 <!-- SUBTITLE: How to install Wiki.js on your server -->
 ![Wiki](/uploads/page-icons/wiki.png "Wiki"){.pagelogo}
 # A - Prerequisites
-Make sure you have read the [prerequisites](prerequisites) page to ensure your server meets the minimum requirements.
+Make sure you have read the [prerequisites](/wiki/prerequisites) page to ensure your server meets the minimum requirements.
 
 # B - Installation
 ## The easy way, using npm
 1. **Create an empty folder** where Wiki.js should be installed.
 2. From this folder, in a command prompt, **run** the following command (exactly as displayed): `npm install wiki.js@latest`
 3. **Wait** for the installation to complete. If you see any error(s) in red, make sure you fix them first. Wiki.js will most likely crash or refuse to start if all dependencies are not properly installed. Note that you can safely ignore warnings (in yellow).
-	- If you get errors related to `node-gyp`, make sure you have the necessary build tools for Node.js native compilation as explained in the [prerequisites](prerequisites) page, then run the command again!
+	- If you get errors related to `node-gyp`, make sure you have the necessary build tools for Node.js native compilation as explained in the [prerequisites](/wiki/prerequisites) page, then run the command again!
 4. Continue reading from section **C - Configuration** below.
 
 ## Manually
@@ -25,12 +25,12 @@ Make sure you have read the [prerequisites](prerequisites) page to ensure your s
 	- On Windows, navigate to the Wiki.js folder in File Explorer. While holding **Shift**, right-click in an empty area and choose **Open a command window here**. On Windows 10, you may instead have **Open a Powershell window here**.
 	- On macOS, launch the **Terminal** application and jump to the Wiki.js folder using the **cd** command. *e.g.* `cd /Library/WebServer/Documents/wiki`
 4. **Wait** for the dependencies installation to finish. If you see any error(s) in red, make sure you fix them first. Wiki.js will most likely crash or refuse to start if all dependencies are not properly installed. Note that you can safely ignore warnings (in yellow).
-	- If you get errors related to `node-gyp`, make sure you have the necessary build tools for Node.js native compilation as explained in the [prerequisites](prerequisites) page, then run the command again!
+	- If you get errors related to `node-gyp`, make sure you have the necessary build tools for Node.js native compilation as explained in the [prerequisites](/wiki/prerequisites) page, then run the command again!
 5. **Rename** the file `config.sample.yml` to `config.yml`
 	- If you are upgrading, do not replace your existing `config.yml` file!
 
 # C - Configuration
-6. **Edit** the file `config.yml` and enter the configuration values to match your setup. See the [Configuration File](install/configuration) guide for all the possible properties you can use.
+6. **Edit** the file `config.yml` and enter the configuration values to match your setup. See the [Configuration File](/wiki/install/configuration) guide for all the possible properties you can use.
 
 # D - Run Wiki.js
 You can now start Wiki.js and make sure everything runs smoothly:
