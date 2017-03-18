@@ -32,7 +32,7 @@ To edit information about a user, click on its name from the **Users** page list
 
 Note that the email address cannot be modified as this is the unique identifier of the user. If the email address of a user changed, you must create a new account and delete the old one if necessary.
 
-Read the [Manage Access Rights](/admin-guide/manage-access-rights) page to learn how to provide the necessary access rights to a user.
+Read the [Manage Access Rights](/wiki/admin-guide/manage-access-rights) page to learn how to provide the necessary access rights to a user.
 
 # Delete a user
 To delete (or de-authorize) a user, click on its name from the **Users** page list.
