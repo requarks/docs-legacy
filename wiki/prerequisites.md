@@ -52,7 +52,7 @@ MongoDB is a free and open-source cross-platform document-oriented database prog
 - [Official Website](https://www.mongodb.com/)
 - [Installation Guide](https://docs.mongodb.com/manual/administration/install-community/)
 
-Read the [Database Guide](/install/database) for more information.
+Read the [Database Guide](/wiki/install/database) for more information.
 
 ## Git
 
@@ -69,7 +69,7 @@ Any Git repository will do, as long as the Wiki can connect to it using **basic*
 
 While not recommended, it is possible to use Wiki.js in a complete offline mode with no remote sync.
 
-Read the [Git Repository Guide](/install/git) for more information.
+Read the [Git Repository Guide](/wiki/install/git) for more information.
 
 # End User Requirements
 The following modern browsers are supported:
