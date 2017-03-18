@@ -5,8 +5,7 @@
 - **CTRL+B**: Set selected text as bold.
 - **CTRL+I**: Set selected text as italic.
 - **CTRL+L**: Start a bullet list.
-- **CTRL+ALT+L**: Start a numbered list.
-
+- **CTRL+ALT+L**: Start a numbered list.  
 
 - **CTRL+S**: Save and view processed page.
 
