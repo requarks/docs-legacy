@@ -35,11 +35,11 @@ Wiki.js offers various authentication providers that you can enable. See the [au
 
 | Property            | Required | Description                                                                                                                          |   Default Value  |
 |---------------------|:--------:|--------------------------------------------------------------------------------------------------------------------------------------|:----------------:|
-| **db**                    | yes | The MongoDB-formatted [connection string](database). | |
+| **db**                    | yes | The MongoDB-formatted [connection string](/wiki/database). | |
 
 # Git Repository
 
-Wiki.js works with pretty much any Git repository. See the [Git repository guide](git) to learn how to get the necessary info from the most popular providers.
+Wiki.js works with pretty much any Git repository. See the [Git repository guide](/wiki/git) to learn how to get the necessary info from the most popular providers.
 
 | Property            | Required | Description                                                                                                                          |   Default Value  |
 |---------------------|:--------:|--------------------------------------------------------------------------------------------------------------------------------------|:----------------:|
