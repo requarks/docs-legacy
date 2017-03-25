@@ -166,7 +166,7 @@ git:
 
 ## Using SSH
 
-You must define private key (**privateKey**) location when using the SSH authentication method. If the private key must **NOT** be protected by a passphrase. If you want to a passphrase, you must configure your ssh-agent to handle it. Wiki.js will use the standard ssh executable installed on your system.
+You must define private key (**privateKey**) location when using the SSH authentication method. The private key must **NOT** be protected by a passphrase. If you want to a passphrase, you must configure your ssh-agent to handle it. Wiki.js will use the standard ssh executable installed on your system.
 
 Example:
 ```yaml
