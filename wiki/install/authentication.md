@@ -58,6 +58,21 @@ google:
   clientSecret: YOUR_CLIENT_SECRET
 ```
 # Facebook
-The Facebook provider lets users login using their own Facebook login.
+The Facebook provider lets users login using their own Facebook account.
+
+*Documentation coming soon*
+
+# GitHub
+The GitHub provider lets users login using their own GitHub account.
+
+*Documentation coming soon*
+
+# Slack
+The Slack provider lets users login using their own Slack account.
+
+*Documentation coming soon*
+
+# LDAP (Active Directory)
+The LDAP provider lets users login using their LDAP / Active Directory account.
 
 *Documentation coming soon*
