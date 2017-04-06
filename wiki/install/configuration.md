@@ -29,7 +29,6 @@ Wiki.js offers various authentication providers that you can enable. See the [au
 | **auth.facebook.clientId**      | no | Facebook client ID that uniquely identify your app. | |
 | **auth.facebook.clientSecret**  | no | Facebook client secret for your app. | |
 | **sessionSecret**   | yes | A randomly generated string, used when encrypting sessions. 256-bit keys are usually a good choice. You can use this [key generator](http://randomkeygen.com/) to generate one. | |
-| **admin**           | yes | The site administrator email address. An admin account will be created in the local database using this email. The default password is `admin123`. :warning: Change it immediately upon login, even if you don't use local authentication! | |
 
 # Database
 
