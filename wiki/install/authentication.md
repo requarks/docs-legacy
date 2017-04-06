@@ -75,4 +75,20 @@ The Slack provider lets users login using their own Slack account.
 # LDAP (Active Directory)
 The LDAP provider lets users login using their LDAP / Active Directory account.
 
-*Documentation coming soon*
+This provider is only for classic LDAP / Active Directory systems, it is **not** compatible with Azure Active Directory. Use the **Azure Active Directory** provider instead (coming soon).
+
+Under the auth section of your config.yml, enter the required info:
+
+```yaml
+ldap:
+	enabled: true
+	url: ldap://serverhost:389
+	bindDn: cn='root'
+	bindCredentials: BIND_PASSWORD
+	searchBase: o=users,o=example.com
+	searchFilter: (uid={{username}})
+	tlsEnabled: false
+	tlsCertPath: C:\example\root_ca_cert.crt
+```
+
+The `searchFilter` option has a variable `{{username}}` which contains the value entered by the user during login. You can use this variable however you want in your searchFilter expression.
