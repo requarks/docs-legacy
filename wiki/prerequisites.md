@@ -33,17 +33,6 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js 
 > However, it is highly recommended to put a standard web server in front of Wiki.js. This ensures you can use features like SSL, multiple websites, caching, etc.
 {.is-info}
 
-## Node.js native compilation support
-
-Your system must be able to compile native Node.js addons in order to successfully install Wiki.js dependencies:
-
-- On **Ubuntu/Debian Linux**: `sudo apt-get install -y build-essential python2.7 python-pip && npm install -g node-gyp`
-- On **RedHat/CentOS/Fedora Linux**: `yum install gcc-c++ make && npm install -g node-gyp` *(You must also install Python 2.7 manually)*
-- On **Windows**: From an elevated command prompt: `npm install -g windows-build-tools node-gyp`
-- On **macOS**: Install the `Command Line Tools` via Xcode *(Xcode -> Preferences -> Downloads)*. Then run command `npm install -g node-gyp`
-
-More info can be found on [node-gyp](https://github.com/nodejs/node-gyp#installation) project page, should you want to review and install the dependencies yourself.
-
 ## MongoDB
 MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.
 
