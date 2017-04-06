@@ -41,12 +41,12 @@ The Google ID provider lets users login using their own Google ID.
 3. From the sidebar menu, click **API Manager**.
 4. Click on the **Enable API** button.
 5. Enable the **Google+ API**.
-5. From the sidebar menu, click **Credentials**.
-4. Under the **OAuth consent screen** tab, **fill in** the required info and click **Save**.
-5. Back to the **Credentials** tab, click on **Create credentials** > **OAuth client Id**.
-6. Choose **Web Application** and enter a **name** (e.g. Wiki).
-7. Under **Restrictions**, enter the **authorised origin domain** of your wiki (e.g. https://www.example.com) and the **authorised redirect URL** (full URL of your wiki followed by `/login/google/callback` as e.g.: `http://www.example.com/login/google/callback`)
-8. Click **Create** and take note of both the generated **Client ID** and **Client Secret**.
+6. From the sidebar menu, click **Credentials**.
+7. Under the **OAuth consent screen** tab, **fill in** the required info and click **Save**.
+8. Back to the **Credentials** tab, click on **Create credentials** > **OAuth client Id**.
+9. Choose **Web Application** and enter a **name** (e.g. Wiki).
+10. Under **Restrictions**, enter the **authorised origin domain** of your wiki (e.g. https://www.example.com) and the **authorised redirect URL** (full URL of your wiki followed by `/login/google/callback` as e.g.: `http://www.example.com/login/google/callback`)
+11. Click **Create** and take note of both the generated **Client ID** and **Client Secret**.
 
 Under the auth section of your config.yml, you can now enter the required info:
 
@@ -65,7 +65,22 @@ The Facebook provider lets users login using their own Facebook account.
 # GitHub
 The GitHub provider lets users login using their own GitHub account.
 
-*Documentation coming soon*
+1. Go to https://github.com/settings/applications/new
+2. Enter an **Application Name** (e.g. Wiki).
+3. Enter the **Homepage URL** to your wiki.
+4. In the **Authorization Callback URL** field, enter the full URL of your wiki followed by `/login/github/callback` (e.g.: `http://www.example.com/login/github/callback`).
+5. Click on **Register Application**.
+6. Take note of both the generated **Client ID** and **Client Secret**.
+7. (optional) Upload a logo for your application.
+
+Under the auth section of your config.yml, you can now enter the required info:
+
+```yaml
+github:
+	enabled: true
+	clientId: GITHUB_CLIENT_ID
+	clientSecret: GITHUB_CLIENT_SECRET
+```
 
 # Slack
 The Slack provider lets users login using their own Slack account.
