@@ -7,7 +7,10 @@ Make sure you have read the [prerequisites](/wiki/prerequisites) page to ensure 
 # Installation
 **Create an empty folder** where Wiki.js should be installed.
 
-From this folder, in a command prompt, **run** the following command (exactly as displayed): `npm install wiki.js@latest`
+From this folder, in a command prompt, **run** the following command (exactly as displayed):
+```bash
+npm install wiki.js@latest
+```
 
 **Wait** for the installation to complete. If you see any error(s) in red, make sure you fix them first. Wiki.js will most likely crash or refuse to start if all dependencies are not properly installed. Note that you can safely ignore warnings (in yellow).
 	- If you get errors related to `node-gyp`, make sure you have the necessary build tools for Node.js native compilation as explained in the [prerequisites](/wiki/prerequisites) page, then run the command again!
