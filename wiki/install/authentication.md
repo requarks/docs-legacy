@@ -85,7 +85,26 @@ github:
 # Slack
 The Slack provider lets users login using their own Slack account.
 
-*Documentation coming soon*
+1. Go to https://api.slack.com/apps
+2. Click on **Create an App**.
+3. Enter a name under **App Name** (e.g. Wiki) and select a **Development Slack Team**.
+4. Click on **Create App**.
+5. In the left sidebar, navigate to **OAuth & Permissions**.
+6. Under **Redirect URLs**, click **Add a New Redirect URL** and enter the full URL of your wiki followed by `/login/slack/callback` (e.g.: `http://www.example.com/login/slack/callback`).
+7. Click **Add** and then **Save URLs**.
+8. Under **Permissions**, add the following scopes: **identity.basic** and **identity.email**
+9. **Save Changes** and navigate to **Basic Information** in the left sidebar.
+10. Take note of the **Client ID** and **Client Secret** shown under **App Credentials**.
+11. (optional) Upload a logo and customize the look and description of your app.
+
+Under the auth section of your config.yml, you can now enter the required info:
+
+```yaml
+slack:
+	enabled: true
+	clientId: SLACK_CLIENT_ID
+	clientSecret: SLACK_CLIENT_SECRET
+```
 
 # LDAP (Active Directory)
 The LDAP provider lets users login using their LDAP / Active Directory account.
