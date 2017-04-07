@@ -31,7 +31,7 @@
 5. **Delete** all files/folders contained in your wiki folder.
 6. **Delete the data folder** if located in a different location than above.
 7. **Extract** the contents of the .zip/tar.gz file you downloaded in step 1, to the wiki folder.
-8. Inside the wiki folder, **run** the command: `npm install && npm rebuild`
+8. Inside the wiki folder, **run** the command: `npm install --only=production --no-optional`
 9. **Copy** the `config.yml` back to its original location, in your wiki folder.
 10. If your **repo folder** was located inside your wiki folder, copy it back to it's original location as well.
 11. **Start** Wiki.js by running the command `node wiki start` (or `.\wiki start` when using Powershell)
