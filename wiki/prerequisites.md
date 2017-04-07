@@ -13,7 +13,7 @@ Wiki.js runs on pretty much any platform that supports the requirements below. H
 
 **CPU:** Runs perfectly fine on a single CPU core machine. However, to maximize Wiki.js background agent feature, using 2 cores is highly recommended.
 
-**RAM:** Wiki.js uses between 100-200MB of RAM. While Wiki.js itself is able to run with only 512MB total RAM, you will not be able to install and compile the dependencies. You need a minimum of 768MB just to install the dependencies. Note that Windows machines may require more RAM.
+**RAM:** Wiki.js uses between 100-200MB of RAM. While Wiki.js itself is able to run with only 512MB total RAM, you will not be able to install all the dependencies. You need a minimum of 768MB just to install the dependencies. Note that Windows machines may require more RAM.
 
 **Disk Space:** Wiki.js requires about 300MB of disk space when including the dependencies. The actual total space needed for your installation depends on the content and most importantly, the uploads. A wiki with only text content will only use a few megabytes, even for thousands of articles. However, if you start adding images, documents, videos, etc., you must plan required disk space accordingly.
 
