@@ -58,7 +58,7 @@ By default, Wiki.js will not start automatically following a system reboot. In o
 
 ### View installed version
 To view the currently installed version, run the command:  
-```shell
+```bash
 # On Linux, Mac and Windows running a terminal / traditional command prompt:
 node wiki -V
 
