@@ -25,9 +25,9 @@ All settings entered during the configuration wizard are saved in the file `conf
 # Run Wiki.js
 The configuration wizard will automatically start Wiki.js for you.
 
-To start Wiki.js manually, in a command prompt, **run** the following command: `node wiki start`
-	- If using a Powershell prompt (default on Windows 10), you can instead use the `.\wiki start` command.
-	- **Wait** for the command to complete. This can take several seconds.
+To start Wiki.js manually, in a command prompt, **run** the following command: `node wiki start`  
+	- If using a Powershell prompt (default on Windows 10), you can instead use the `.\wiki start` command.  
+	- **Wait** for the command to complete. This can take several seconds.  
 	- **Browse** to your Wiki from your browser. You should see the Wiki.js welcome screen.
 
 > Wiki.js runs as a background process, using [pm2](http://pm2.keymetrics.io/) as its process manager.
