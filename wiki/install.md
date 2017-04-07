@@ -34,7 +34,7 @@ To start Wiki.js manually, in a command prompt, **run** the following command: `
 # Notes
 ### Stop Wiki.js
 To stop Wiki.js, run the command: 
-```shell
+```bash
 # On Linux, Mac and Windows running a terminal / traditional command prompt:
 node wiki stop
 
