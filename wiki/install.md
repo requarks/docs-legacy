@@ -15,7 +15,7 @@ From this folder, in a command prompt, **run** the following command (exactly as
 # Configuration
 Once the installation is completed, you'll be prompted to run the configuration wizard. Use the arrow keys to choose the desired port on which to run the configuration wizard. By default, port 3000 will be used.
 
-> If using a non-interactive terminal, you'll need to start the configuration wizard manually by running the command `node wiki configure`.
+> If using a non-interactive terminal, you'll need to start the configuration wizard manually by running the command `node wiki configure`.  
 > To use a custom port, use the following command: `node wiki configure 1234` where 1234 is the custom port.
 
 Using your web browser, navigate to http://localhost:3000/ (replace `localhost` with the IP of your server / custom port if applicable) and follow the on-screen instructions.
