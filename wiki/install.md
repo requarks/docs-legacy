@@ -14,6 +14,12 @@ npm install wiki.js@latest
 
 **Wait** for the installation to complete. If you see any error(s) in red, make sure you fix them first. Wiki.js will most likely crash or refuse to start if all dependencies are not properly installed. Note that you can safely ignore warnings (in yellow).
 
+> **Behind a proxy?**
+> 
+> No problem. You can download the `wiki-js.tar.gz` file directly from the [GitHub Releases](https://github.com/Requarks/wiki/releases) and place the archive to the root of the folder where Wiki.js should be installed (do not extract!). Then run the command above to complete the installation. The install script will use the local archive instead of downloading it from the internet.
+> 
+> Note that you must have preconfigured npm to use your proxy first, as dependencies are still fetching from the internet.
+
 # Configuration
 Once the installation is completed, you'll be prompted to run the configuration wizard. Use the arrow keys to choose the desired port on which to run the configuration wizard. By default, port 3000 will be used.
 
