@@ -7,7 +7,7 @@ Git is a version control system (VCS) that is used mainly for software developme
 Because the documentation you write should always be stored in a safe location. Even though databases and file storages can be configured to have backups, they are either costly or completely ineffective. Storing documents into a Git repository not only make sense, it's cost effective (free in most cases), fast and safe.
 
 Having all your documentation in a central Git repository means you control 100% of your data at all times.
-- Want to modify that content outside the Wiki? **You can**.
+- Want to modify content outside the Wiki? **You can**.
 - Want to transfer content somewhere else? **You can**.
 - You want to completely stop using Wiki.js? Hopefully not, but should you want to, **you can** and there's nothing to extract or backup because everything is already in that Git repository.
 # Providers
