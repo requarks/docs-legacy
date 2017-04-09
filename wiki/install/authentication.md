@@ -111,7 +111,7 @@ The LDAP provider lets users login using their LDAP / Active Directory account.
 
 This provider is only for classic LDAP / Active Directory systems, it is **not** compatible with Azure Active Directory. Use the **Azure Active Directory** provider instead (coming soon).
 
-Under the auth section of your config.yml, enter the required info:
+Under the auth section of your `config.yml`, enter the required info:
 
 ```yaml
 ldap:
@@ -126,3 +126,25 @@ ldap:
 ```
 
 The `searchFilter` option has a variable `{{username}}` which contains the value entered by the user during login. You can use this variable however you want in your searchFilter expression.
+
+# Azure Active Directory
+:warning: **COMING SOON, NOT YET AVAILABLE**
+
+The Azure AD provider lets users login using their Azure Active Directory (AAD) account.
+
+This provider is only for Azure AD, it is **not** compatible with LDAP / classic Active Directory. Use the **LDAP (Active Directory)** provider instead.
+
+Under the auth section of your `config.yml`, enter the required info:
+
+```yaml
+azure:
+	enabled: false
+	identityMetadata: METADATA_ENDPOINT_URL
+	clientID: AZURE_AD_CLIENT_ID
+	validateIssuer: true
+	issuer: ISSUER_IF_COMMON_ENDPOINT
+	isB2C: false
+	policyName: B2C_1_POLICY_NAME
+	allowMultiAudiencesInToken: true
+	audience: AZURE_AD_CLIENT_ID
+	clockSkew: 300
