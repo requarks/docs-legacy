@@ -25,9 +25,23 @@ Wiki.js offers various authentication providers that you can enable. See the [au
 | **auth.microsoft.enabled**      | no | Enable the Microsoft account authentication provider. | false |
 | **auth.microsoft.clientId**     | no | Microsoft account client ID that uniquely identify your app. | |
 | **auth.microsoft.clientSecret** | no | Microsoft account client secret for your app. | |
-| **auth.facebook.enabled**       | no | Enable the Facebook authentication provider | false |
+| **auth.facebook.enabled**       | no | Enable the Facebook authentication provider. | false |
 | **auth.facebook.clientId**      | no | Facebook client ID that uniquely identify your app. | |
 | **auth.facebook.clientSecret**  | no | Facebook client secret for your app. | |
+| **auth.github.enabled**       | no | Enable the GitHub authentication provider. | false |
+| **auth.github.clientId**      | no | GitHub client ID that uniquely identify your app. | |
+| **auth.github.clientSecret**  | no | GitHub client secret for your app. | |
+| **auth.slack.enabled**       | no | Enable the Slack authentication provider. | false |
+| **auth.slack.clientId**      | no | Facebook Slack ID that uniquely identify your app. | |
+| **auth.slack.clientSecret**  | no | Facebook Slack secret for your app. | |
+| **auth.ldap.enabled**       | no | Enable the LDAP / Active Directory authentication provider. | false |
+| **auth.ldap.url**      | no | The URL of the LDAP / AD server. | |
+| **auth.ldap.bindDn**  | no | The security object to use when connecting to the LDAP server, e.g. cn='root' | |
+| **auth.ldap.bindCredentials**  | no | The password to use when connecting to the LDAP server. | |
+| **auth.ldap.searchBase**  | no | The base LDAP directory where authentication should look for users. | |
+| **auth.ldap.searchFilter**  | no | The expression to use when matching the username. Use `{{username}}` to specify the username provided by the user during login. | |
+| **auth.ldap.tlsEnabled**  | no | Should TLS encryption be used when connecting to the LDAP server. | |
+| **auth.ldap.tlsCertPath**  | no | The full local path to a certificate used to authenticate with the LDAP server. | |
 | **sessionSecret**   | yes | A randomly generated string, used when encrypting sessions. 256-bit keys are usually a good choice. You can use this [key generator](http://randomkeygen.com/) to generate one. | |
 
 # Database
@@ -47,8 +61,20 @@ Wiki.js works with pretty much any Git repository. See the [Git repository guide
 | **git.auth.type**         | yes | The type of authentication to use when connecting to your Git repository. Valid values: `basic` or `ssh` | basic |
 | **git.auth.username**     | no  | The username to use when authenticating with your Git repository | |
 | **git.auth.password**     | no  | The password (basic), the OAuth token (oauth) or the private key passphrase (ssh) to use when authenticating with your Git repository | |
-| **git.auth.publicKey**    | no  | *(ssh only)* The full path to the public key (.pem) to use when authenticating with your Git repository | |
 | **git.auth.privateKey**   | no  | *(ssh only)* The full path to the private key (.pem) to use when authenticating with your Git repository | |
 | **git.auth.sslVerify**    | no  | *(ssh only)* Should the server check for a valid SSL certificate when connecting to your Git repository. | true |
 | **git.signature. name**    | yes | The name to use as the author when pushing changes to your Git repository. | |
 | **git.signature.email**   | yes | The email address to use as the author when pushing changes to your Git repository. | |
+
+# Logging
+By default, all logs are stored locally in the `/logs` directory. You can send logs to additional remote logging services:
+
+| Property            | Required | Description                                                                                                                          |   Default Value  |
+|---------------------|:--------:|--------------------------------------------------------------------------------------------------------------------------------------|:----------------:|
+| **externalLogging.bugsnag**               | no | Key to use for Bugsnag | |
+| **externalLogging.loggly.token**            | no | Token to use for Loggly |  |
+| **externalLogging.loggly.subdomain**            | no | Subdomain to use for Loggly |  |
+| **externalLogging.papertrail.host**            | no | Host to use for Papertrail |  |
+| **externalLogging.papertrail.port**            | no | Port to use for Papertrail |  |
+| **externalLogging.rollbar**               | no | Key to use for Rollbar | |
+| **externalLogging.sentry**               | no | Key to use for Sentry | |
