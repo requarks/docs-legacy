@@ -1,5 +1,9 @@
 <!-- TITLE: Configuration File -->
 <!-- SUBTITLE: List of all configuration settings -->
+
+The configuration file is automatically generated for you during the Configuration Wizard. You may change settings or additional options to shown during the wizard.
+
+The configuration file is located at the root, named `config.yml`. **Note that any changes will not be applied until Wiki.js is restarted**.
 # General Site Settings
 
 | Property            | Required | Description                                                                                                                          |   Default Value  |
