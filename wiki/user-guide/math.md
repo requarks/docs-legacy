@@ -41,3 +41,5 @@ $$\sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}$$
     </mrow>
   </mfrac>
 </math>
+
+sum_(i=1)^n i^3=((n(n+1))/2)^2
