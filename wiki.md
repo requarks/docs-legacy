@@ -24,6 +24,7 @@
 - [Editor Blockquotes](/wiki/user-guide/blockquotes)
 - [Editor Keyboard Shortcuts](/wiki/user-guide/keyboard-shortcuts)
 - [Markdown Syntax](/wiki/user-guide/markdown-syntax)
+- [MathML, TeX and ASCIImath](/wiki/user-guide/math)
 
 # Contributing
 - [GitHub repository](https://github.com/Requarks/wiki)
