@@ -42,4 +42,4 @@ $$\sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}$$
   </mfrac>
 </math>
 
-# [Test](/)
+# Test: [Test](/wiki)
