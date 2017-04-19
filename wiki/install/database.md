@@ -27,8 +27,7 @@ Should you prefer on having a cloud provider host the MongoDB instance for you, 
 {.is-warning}
 
 # Connection String
-A MongoDB connection string is formatted as such:
-
+A MongoDB connection string is formatted as such:  
 `mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][/[database][?options]]`
 
 Refer to the [official MongoDB documentation](https://docs.mongodb.com/manual/reference/connection-string/) for all the possible options.
