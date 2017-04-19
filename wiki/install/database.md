@@ -32,8 +32,7 @@ A MongoDB connection string is formatted as such:
 
 Refer to the [official MongoDB documentation](https://docs.mongodb.com/manual/reference/connection-string/) for all the possible options.
 
-You can also use an **environment variable** containing the MongoDB connection string, e.g:
-
+You can also use an **environment variable** containing the MongoDB connection string, e.g:  
 `$MONGO_URI`
 
 Note that the variable must be prefixed by **$**
