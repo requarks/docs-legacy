@@ -15,14 +15,14 @@ Make sure you have installed all dependencies and created the `config.yml` file 
 - **assets**: Contains production-ready assets (js, css, images, fonts, etc.). *No modifications should be done here!*
 - **client**: Contains dev source files for js and scss. This is where you should edit the client js and scss files.
 - **controllers**: Contains the server-side logic for loading pages and responding to POST/PUT queries.
-- **data**\*: Contains cache, search index and temporary uploads. Contents are always flushed and re-created on start.
+- **data** \*: Contains cache, search index and temporary uploads. Contents are always flushed and re-created on start.
 - **libs**: Contains server modules, used by multiple controllers or server functions.
 - **locales**: Contains the localization files for multilingual UI capibilities.
-- **logs**\*: Contains the server process output and error logs.
+- **logs** \*: Contains the server process output and error logs.
 - **middlewares**: Contains server middlewares that alter the requests for authentication, user funtions and security.
 - **models**: Contains the database models for MongoDB.
 - **npm**: Contains the installation scripts to download and install Wiki.js.
-- **repo**\*: The git repository containing pages and uploads.
+- **repo** \*: The git repository containing pages and uploads.
 - **test**: The linting and unit test files
 - **views**: Contains the view templates for pages, in Pug format.
 
