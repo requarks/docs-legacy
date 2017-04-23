@@ -1,4 +1,4 @@
-<!-- TITLE: Dev Guide -->
+<!-- TITLE: Developer Guide -->
 <!-- SUBTITLE: How to run and build Wiki.js for developers -->
 ![Wiki.js](/uploads/page-icons/logo.png "Logo"){.pagelogo}
 
