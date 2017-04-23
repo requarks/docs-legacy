@@ -1,5 +1,6 @@
 <!-- TITLE: Configuration File -->
 <!-- SUBTITLE: List of all configuration settings -->
+![Wiki.js](/uploads/page-icons/logo.png "Logo"){.pagelogo}
 
 The configuration file is automatically generated for you during the Configuration Wizard.  
 You may however change settings or additional options not shown during the wizard, based on the list below.
