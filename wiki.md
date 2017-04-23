@@ -26,6 +26,8 @@
 - [Markdown Syntax](/wiki/user-guide/markdown-syntax)
 - [MathML & TeX Math Equations](/wiki/user-guide/math) *(coming soon)*
 
+# Developer Guide
+- [Run & Build](/wiki/dev-guide)
 # Contributing
 - [GitHub repository](https://github.com/Requarks/wiki)
 - [Report a Bug / Suggestion](https://github.com/Requarks/wiki/issues)
