@@ -1,5 +1,6 @@
 <!-- TITLE: Troubleshooting -->
 <!-- SUBTITLE: A collection of common issues / errors and their possible solutions. -->
+![Wiki.js](/uploads/page-icons/logo.png "Logo"){.pagelogo}
 
 # General Info
 Wiki.js runs using background processes, which means you may not see an error right away. The best way to look for errors / potential issues is by running these useful commands:

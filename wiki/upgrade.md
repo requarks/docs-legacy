@@ -1,5 +1,6 @@
 <!-- TITLE: Upgrade -->
 <!-- SUBTITLE: How to upgrade to the latest version of Wiki.js -->
+![Wiki.js](/uploads/page-icons/logo.png "Logo"){.pagelogo}
 
 # Before upgrading
 - Your Wiki.js installation will not be accessible during the upgrade process.
