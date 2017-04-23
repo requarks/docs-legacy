@@ -14,9 +14,17 @@ Make sure you have installed all dependencies and created the `config.yml` file 
 - **app**: Contains app date and configuration that shouldn't be modified by the user.
 - **assets**: Contains production-ready assets (js, css, images, fonts, etc.). *No modifications should be done here!*
 - **client**: Contains dev source files for js and scss. This is where you should edit the client js and scss files.
+	- **content**: Server-side text templates.
+	- **js**: Client-side Javascript source files.
+	- **scss**: Client-side SCSS source files.
 - **controllers**: Contains the server-side logic for loading pages and responding to POST/PUT queries.
 - **data** \*: Contains cache, search index and temporary uploads. Contents are always flushed and re-created on start.
+	- **cache**: Page cache (compiled HTML, metadata, table of contents, etc.)
+	- **temp-upload**: Temporary uploads being uploaded / processed.
+	- **thumbs**: Image upload thumbnails.
 - **libs**: Contains server modules, used by multiple controllers or server functions.
+	- **search-index**: Modified search-index files to remove native compilation requirements.
+	- **winston-transports**: Extra winston transport integrations.
 - **locales**: Contains the localization files for multilingual UI capibilities.
 - **logs** \*: Contains the server process output and error logs.
 - **middlewares**: Contains server middlewares that alter the requests for authentication, user funtions and security.
