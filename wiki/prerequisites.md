@@ -1,6 +1,6 @@
 <!-- TITLE: Prerequisites -->
 <!-- SUBTITLE: Requirements to run Wiki.js -->
-![Prerequisites](/uploads/page-icons/prerequisites.png "Prerequisites"){.pagelogo}
+![Wiki.js](/uploads/page-icons/logo.png "Logo"){.pagelogo}
 
 Wiki.js is cross-platform (Windows, Linux and Mac) and does not depend on any paid commercial product / service.
 
