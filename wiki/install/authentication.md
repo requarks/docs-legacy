@@ -1,5 +1,6 @@
 <!-- TITLE: Authentication -->
 <!-- SUBTITLE: How to setup authentication on your wiki. -->
+![Wiki.js](/uploads/page-icons/logo.png "Logo"){.pagelogo}
 
 Wiki.js supports multiple authentication providers. You may choose to enable one, some or even all of them.
 
