@@ -53,6 +53,12 @@ npm run build
 
 This will generate new bundles and copy the necessary 3rd-party libraries in `/assets/js`. Notice there is no CSS folder/files being generated as they are included directly into the js bundle.
 # Run development server
+Running Wiki.js in development mode has the following extra features over production mode:
+- Automatic restart on changes
+- Automatic re-compilation of client-side js and css assets
+- Hot-reload for the setup wizard. *(Disabled on main server, as it causes layout issues on reload)*
+- Runs in debug mode *(obviously)*, easier to catch errors.
+
 Start Wiki.js in development mode (using port defined in `config.yml`):
 
 ```bash
