@@ -8,6 +8,8 @@ It is highly recommended to download the source code from a published release an
 
 You can find the latest release source code on the [GitHub Releases](https://github.com/Requarks/wiki/releases) page. Use either the `Source code (zip)` or `Source code (tar.gz)` file.
 
+Make sure you have installed all dependencies and created the `config.yml` file (or run the setup wizard to generate it).
+
 # Project Structure
 - **app**: Contains app date and configuration that shouldn't be modified by the user.
 - **assets**: Contains production-ready assets (js, css, images, fonts, etc.). *No modifications should be done here!*
@@ -25,6 +27,15 @@ You can find the latest release source code on the [GitHub Releases](https://git
 - **views**: Contains the view templates for pages, in Pug format.
 
 \* Not included in source code. These folders are generated automatically on first-time run.
+
+## Root files
+
+- **agent.js**: Runs background tasks such as indexing, thumbnail processing, etc. which shouldn't impact the main server process. Never run this process directly! It is spawned by the main server process.
+- **configure.js**: Runs the setup wizard server.
+- **fuse.js**: Build, compilation and dev server scripts.
+- **init.js**: Contains the init scripts. It cannot run by itself.
+- **server.js**: Runs the main server process.
+- **wiki.js**: Main entry point, which runs the main server or configure (setup wizard) process depending on the provided arguments.
 # Compile client assets
 To compile all client assets:
 
@@ -34,13 +45,13 @@ npm run build
 
 This will generate new bundles and copy the necessary 3rd-party libraries in `/assets/js`. Notice there is no CSS folder/files being generated as they are included directly into the js bundle.
 # Run development server
-Start Wiki.js in development mode:
+Start Wiki.js in development mode (using port defined in `config.yml`):
 
 ```bash
 npm run dev
 ```
 
-Start Wiki.js setup wizard in development mode:
+Start Wiki.js setup wizard in development mode (using port `3000`):
 
 ```bash
 npm run dev-configure
