@@ -1,5 +1,6 @@
 <!-- TITLE: Dev Guide -->
 <!-- SUBTITLE: How to run and build Wiki.js for developers -->
+![Wiki.js](/uploads/page-icons/logo.png "Logo"){.pagelogo}
 
 # Getting Started
 It is highly recommended to download the source code from a published release and **not** from the master branch directly.
