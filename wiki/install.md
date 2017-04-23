@@ -1,6 +1,6 @@
 <!-- TITLE: Install -->
 <!-- SUBTITLE: How to install Wiki.js on your server -->
-![Wiki](/uploads/page-icons/wiki.png "Wiki"){.pagelogo}
+![Wiki.js](/uploads/page-icons/logo.png "Logo"){.pagelogo}
 # Prerequisites
 Make sure you have read the [prerequisites](/wiki/prerequisites) page to ensure your server meets the minimum requirements.
 
