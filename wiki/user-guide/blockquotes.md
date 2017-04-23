@@ -9,7 +9,7 @@ Simply begin your line of text with a **>**
 
 For example, the following markdown text:
 
-```markdown
+```
 > A line of text
 
 > A blockquote with
@@ -50,7 +50,7 @@ Various styling options are available:
 
 Simply add the desired styling class below your blockquote:
 
-```markdown
+```
 > Default
 
 > Info
