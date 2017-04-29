@@ -24,7 +24,7 @@
 - [Editor Blockquotes](/wiki/user-guide/blockquotes)
 - [Editor Keyboard Shortcuts](/wiki/user-guide/keyboard-shortcuts)
 - [Markdown Syntax](/wiki/user-guide/markdown-syntax)
-- [MathML & TeX Math Equations](/wiki/user-guide/math) *(coming soon)*
+- [MathML & TeX Math Equations](/wiki/user-guide/math)
 
 # Developer Guide
 - [Run & Build](/wiki/dev-guide)
