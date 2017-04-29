@@ -1,9 +1,7 @@
 <!-- TITLE: MathML & TeX math equations  -->
 <!-- SUBTITLE: How to include math equations in your page -->
-
-You can easily display math equations.
 # Usage
-Both the TeX and MathML formats are supported.
+You can easily display math equations. Both the TeX and MathML formats are supported.
 
 ## TeX
 
