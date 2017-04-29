@@ -56,6 +56,16 @@ node wiki stop
 .\wiki stop
 ```
 
+### Restart Wiki.js
+To restart Wiki.js, run the command: 
+```bash
+# On Linux, Mac and Windows running a terminal / traditional command prompt:
+node wiki restart
+
+# On Windows, if using a Powershell prompt, you can instead use the following syntax:
+.\wiki restart
+```
+
 ### Run at startup
 
 By default, Wiki.js will not start automatically following a system reboot. In order to make it start on boot, we need to setup pm2 as a global npm module and set it as a startup service:
