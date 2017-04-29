@@ -63,7 +63,6 @@ Wiki.js offers various authentication providers that you can enable. See the [au
 | **db**                    | yes | The MongoDB-formatted [connection string](/wiki/install/database). | |
 
 # Git Repository
-
 Wiki.js works with pretty much any Git repository. See the [Git repository guide](/wiki/install/git) to learn how to get the necessary info from the most popular providers.
 
 | Property            | Required | Description                                                                                                                          |   Default Value  |
@@ -78,6 +77,12 @@ Wiki.js works with pretty much any Git repository. See the [Git repository guide
 | **git.serverEmail**    | yes | The default/fallback email address to use as the author when committing changes to your Git repository. | |
 | **git.showUserEmail**   | yes | Should the commit author email be set to the current user. | true |
 
+# Features
+You can enable / disable specific optional features.
+
+| Property            | Required | Description                                                                                                                          |   Default Value  |
+|---------------------|:--------:|--------------------------------------------------------------------------------------------------------------------------------------|:----------------:|
+| **features.mathjax**  | no      | Enable math equations processing (in TeX and MathML formats) and display them as SVG graphics. | true |
 # Logging
 By default, all logs are stored locally in the `/logs` directory. You can send logs to additional remote logging services:
 
