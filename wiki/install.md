@@ -20,6 +20,11 @@ npm install wiki.js@latest
 > 
 > Note that you must have preconfigured npm to use your proxy first, as dependencies are still fetching from the internet.
 
+> **Yarn**
+> 
+> Do not install Wiki.js using yarn. Installation progress will not be displayed correctly and you may not be able to use the interactive selection screen at the end of the installation process.
+{.is-warning}
+
 # Configuration
 Once the installation is completed, you'll be prompted to run the configuration wizard. Use the arrow keys to choose the desired port on which to run the configuration wizard. By default, port 3000 will be used.
 
