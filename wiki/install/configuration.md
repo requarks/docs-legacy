@@ -48,6 +48,11 @@ Wiki.js offers various authentication providers that you can enable. See the [au
 | **auth.ldap.searchFilter**  | no | The expression to use when matching the username. Use `{{username}}` to specify the username provided by the user during login. | |
 | **auth.ldap.tlsEnabled**  | no | Should TLS encryption be used when connecting to the LDAP server. | |
 | **auth.ldap.tlsCertPath**  | no | The full local path to a certificate used to authenticate with the LDAP server. | |
+| **auth.azure.enabled**       | no | Enable the Azure AD authentication provider. | false |
+| **auth.azure.clientId**      | no | Azure AD ID that uniquely identify your app. | |
+| **auth.azure.clientSecret**  | no | Azure AD secret for your app. | |
+| **auth.azure.resource**      | no | Resource GUID used during authentication. | 00000002-0000-0000-c000-000000000000 |
+| **auth.azure.tenant**  | no | Azure AD tenant hostname. Usually `SOMETHING.onmicrosoft.com` | |
 | **sessionSecret**   | yes | A randomly generated string, used when encrypting sessions. 256-bit keys are usually a good choice. You can use this [key generator](http://randomkeygen.com/) to generate one. | |
 
 # Database
@@ -69,8 +74,8 @@ Wiki.js works with pretty much any Git repository. See the [Git repository guide
 | **git.auth.password**     | no  | The password (basic), the OAuth token (oauth) or the private key passphrase (ssh) to use when authenticating with your Git repository | |
 | **git.auth.privateKey**   | no  | *(ssh only)* The full path to the private key (.pem) to use when authenticating with your Git repository | |
 | **git.auth.sslVerify**    | no  | *(ssh only)* Should the server check for a valid SSL certificate when connecting to your Git repository. | true |
-| **git.signature. name**    | yes | The name to use as the author when pushing changes to your Git repository. | |
-| **git.signature.email**   | yes | The email address to use as the author when pushing changes to your Git repository. | |
+| **git.serverEmail**    | yes | The default/fallback email address to use as the author when committing changes to your Git repository. | |
+| **git.showUserEmail**   | yes | Should the commit author email be set to the current user. | true |
 
 # Logging
 By default, all logs are stored locally in the `/logs` directory. You can send logs to additional remote logging services:
