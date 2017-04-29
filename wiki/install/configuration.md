@@ -15,7 +15,7 @@ The configuration file is located at the root, named `config.yml`. **Note that a
 | **port**            | no  | The port on which the server should listen to. You can also use the environment variable process.env.PORT by omitting this property. | 80 |
 | **paths.repo**      | yes | The path (absolute or relative to server.js) to the folder where markdown content will be synchronized with the Git repository. Make sure this folder has the necessary write permissions. Note that this folder will contain all uploads (images, documents, etc.), so make sure to allow enough disk space depending on your usage. | ./repo |
 | **paths.data**      | yes | The path (absolute or relative to server.js) to the folder where temporary data will be stored (cache, thumbnails, search indexes, etc.). Make sure this folder has the necessary write permissions. | ./data |
-| **lang**            | yes | The default language to use for the site UI. | en |
+| **lang**            | yes | The default language to use for the site UI. Possible values: `en`, `de`, `es`, `fr`, `ko`, `pt` or `ru` | en |
 
 # Authentication
 
@@ -24,6 +24,7 @@ Wiki.js offers various authentication providers that you can enable. See the [au
 | Property            | Required | Description                                                                                                                          |   Default Value  |
 |---------------------|:--------:|--------------------------------------------------------------------------------------------------------------------------------------|:----------------:|
 | **public**          | yes      | Should the wiki be accessible publicly without a login. Set to false to require all users to login before accessing any wiki content. | false |
+| **defaultReadAccess**          | yes      | Should users that logged in using a social authentication provided have read-only access by default. | false |
 | **auth.local.enabled**          | no | Enable the local authentication provider. | true |
 | **auth.google.enabled**         | no | Enable the Google authentication provider | false |
 | **auth.google.clientId**        | no | Google client ID that uniquely identify your app. | |
