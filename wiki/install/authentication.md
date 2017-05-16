@@ -128,9 +128,9 @@ ldap:
 
 The `searchFilter` option has a variable `{{username}}` which contains the value entered by the user during login. You can use this variable however you want in your searchFilter expression.
 
-# Azure Active Directory
-:warning: **COMING SOON, NOT YET AVAILABLE**
+For Active Directory, you should usually use the `samaccountname` in the `searchFilter`, e.g.: `(samaccountname={{username}})`
 
+# Azure Active Directory
 The Azure AD provider lets users login using their Azure Active Directory (AAD) account.
 
 This provider is only for Azure AD, it is **not** compatible with LDAP / classic Active Directory. Use the **LDAP (Active Directory)** provider instead.
