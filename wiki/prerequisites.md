@@ -4,7 +4,7 @@
 
 Wiki.js is cross-platform (Windows, Linux and Mac) and does not depend on any paid commercial product / service.
 
-# System
+# Server
 
 Wiki.js runs on pretty much any platform that supports the requirements below. However, the following environments are recommended and more thoroughly tested:
 
