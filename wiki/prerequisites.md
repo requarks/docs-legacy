@@ -51,7 +51,7 @@ Even though Linux usually comes with Git pre-installed, it is most likely an out
 
 You can download the [latest version](https://git-scm.com/downloads) from the official Git website.
 
-## An empty Git repository
+## An empty Git repository (optional)
 
 All content created in the Wiki is saved locally and synced regularly to a remote Git repository.  
 Any Git repository will do, as long as the Wiki can connect to it using **basic** or **ssh** authentication.
