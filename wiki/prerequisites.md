@@ -72,5 +72,6 @@ The following modern browsers are supported:
 
 > :no_entry_sign: **Unsupported Browsers**
 > 
-> Internet Explorer 9 and below are not supported. Wiki.js makes heavy use of the latest HTML / CSS / JS standards, which simply doesn't work in these browsers.
+> - Internet Explorer 10 is not supported, but if a bug specific to this browser can **easily** be fixed, it will be considered.
+> - Internet Explorer 9 and below are not supported. Wiki.js makes heavy use of the latest HTML / CSS / JS standards, which simply doesn't work in these browsers.
 {.is-danger}
