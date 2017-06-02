@@ -11,13 +11,13 @@ server {
 	server_name  wiki.example.com;
 
 	location / {
-			proxy_set_header Host $http_host;
-			proxy_set_header X-Real-IP $remote_addr;
-			proxy_pass http://127.0.0.1:3001;
-			proxy_http_version 1.1;
-			proxy_set_header Upgrade $http_upgrade;
-			proxy_set_header Connection "upgrade";
-			proxy_next_upstream error timeout http_502 http_503 http_504;
+		proxy_set_header Host $http_host;
+		proxy_set_header X-Real-IP $remote_addr;
+		proxy_pass http://127.0.0.1:3001;
+		proxy_http_version 1.1;
+		proxy_set_header Upgrade $http_upgrade;
+		proxy_set_header Connection "upgrade";
+		proxy_next_upstream error timeout http_502 http_503 http_504;
 	}
 }
 ```
