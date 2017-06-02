@@ -19,7 +19,7 @@
 # Admin Guide
 - [Manage Users](/wiki/admin-guide/manage-users)
 - [Manage Access Rights](/wiki/admin-guide/manage-access-rights)
-- [Setup nginx reverse proxy](/wiki/admin-guide/setup-nginx)
+- [Setup NGINX reverse proxy](/wiki/admin-guide/setup-nginx)
 # User Guide
 - [Change Account Password](/wiki/user-guide/change-password)
 - [Editor Blockquotes](/wiki/user-guide/blockquotes)
