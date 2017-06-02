@@ -1,7 +1,8 @@
-<!-- TITLE: Setup nginx reverse proxy -->
-<!-- SUBTITLE: A quick summary of Setup Nginx -->
+<!-- TITLE: Setup NGINX reverse proxy -->
+<!-- SUBTITLE: Quick tutorial for using NGINX as a reverse proxy for Wiki.js -->
 
-# Sample nginx configurations
+Below are example configurations that can be used as a reverse proxy setup for Wiki.js.
+# Sample NGINX configurations
 ## HTTP reverse-proxy example
 
 ```makefile
