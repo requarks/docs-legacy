@@ -5,6 +5,8 @@ You can easily display math equations. Both the TeX and MathML formats are suppo
 
 ## TeX
 
+### Block
+
 TeX expressions must enclosed by `$$`, e.g.:
 
 ```
@@ -14,6 +16,18 @@ $$\sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}$$
 will result in:
 
 $$\sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}$$
+
+### Inline
+
+You can also put inline expressions by using enclosing them in `$`, e.g.:
+
+```
+The answer is: $M = 2n + 5$
+```
+
+will render as:
+
+The answer is: $M = 2n + 5$
 
 ## MathML
 
