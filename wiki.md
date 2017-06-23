@@ -23,7 +23,7 @@
 
 ## OS Installation Guides
 - [Install Wiki.js on Debian 8](/wiki/admin-guide/install-debian-8)
-- Install Wiki.js on Ubuntu 16.04 *Coming soon*
+- Install Wiki.js on Ubuntu 16.04 *(Coming soon)*
 # User Guide
 - [Change Account Password](/wiki/user-guide/change-password)
 - [Editor Blockquotes](/wiki/user-guide/blockquotes)
