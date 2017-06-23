@@ -19,7 +19,10 @@
 # Admin Guide
 - [Manage Users](/wiki/admin-guide/manage-users)
 - [Manage Access Rights](/wiki/admin-guide/manage-access-rights)
+
 - [Setup NGINX reverse proxy](/wiki/admin-guide/setup-nginx)
+
+- [Install Wiki.js on Debian 8](/wiki/admin-guide/install-debian-8)
 # User Guide
 - [Change Account Password](/wiki/user-guide/change-password)
 - [Editor Blockquotes](/wiki/user-guide/blockquotes)
