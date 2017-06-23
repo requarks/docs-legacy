@@ -1,6 +1,7 @@
 <!-- TITLE: Install on Debian 8 -->
 <!-- SUBTITLE: How to install Wiki.js on Debian 8 -->
 
+This installation guide is based on a new Debian 8 instance from DigitalOcean / Vultr.
 # Create user
 Let's create a new user for running Wiki.js: `adduser wiki`
 # Install MongoDB
@@ -8,7 +9,8 @@ Follow the official installation guide: https://docs.mongodb.com/manual/tutorial
 # Install Git
 The latest git package available for Debian 8 is outdated and cannot be used. We'll compile the latest release from source.
 
-It is recommended to use the latest version available by looking at the https://github.com/git/git/releases page. Simply replace the version number in the instructions below.
+It is recommended to use the latest version available by looking at the https://github.com/git/git/releases page.  
+Simply replace the version number in the instructions below.
 
 1. Remove existing git package: `apt-get remove git`
 2. Install build requirements: `apt-get install libcurl4-openssl-dev libexpat1-dev gettext libz-dev libssl-dev build-essential autoconf`
@@ -32,7 +34,16 @@ apt-get install -y nodejs
 # Install sudo
 **If sudo is already installed and configured, skip this step.**
 
-Let's install sudo: `apt install sudo`
+1. Install sudo: `apt install sudo`
+2. Add the wiki user to sudo group: `adduser wiki sudo`
+3. Edit the sudoers file: `nano /etc/sudoers`
+	- Add the following line `wiki ALL=(ALL:ALL) ALL` right after `%sudo  ALL=(ALL:ALL) ALL`
+	- Ctrl-X to save.
+4. Disconnect from your SSH / Terminal session and reconnect.
 # Install Wiki.js
-
-
+1. Login as the wiki user: `sudo -i -u wiki`
+2. Create a folder to install Wiki.js: `mkdir wiki`
+3. Go inside the folder: `cd wiki`
+4. Install Wiki.js: `npm install wiki.js@latest`
+5. When prompted, select to run the configuration wizard on port 3000.
+6. From a web browser, browse to your server IP on port 3000 to complete the installation.
