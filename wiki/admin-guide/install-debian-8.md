@@ -12,21 +12,30 @@ The latest git package available for Debian 8 is outdated and cannot be used. We
 It is recommended to use the latest version available by looking at the https://github.com/git/git/releases page.  
 Simply replace the version number in the instructions below.
 
-1. Remove existing git package: `apt-get remove git`
-2. Install build requirements: `apt-get install libcurl4-openssl-dev libexpat1-dev gettext libz-dev libssl-dev build-essential autoconf`
-3. Go to tmp directory: `cd /tmp`
-4. Download latest source: `curl -L --progress https://github.com/git/git/archive/v2.13.1.tar.gz | tar xz`
-5. Go to extracted directory: `cd git-2.13.1/`
-6. Run: `make configure`
-7. Run: `./configure`
-8. Run: `make prefix=/usr/local all`
-9. Run: `make prefix=/usr/local install`
-10. Confirm that `which git` produces `/usr/local/bin/git`
+```sh
+# Remove existing git package: 
+apt-get remove git
+
+# Install build requirements:
+apt-get install libcurl4-openssl-dev libexpat1-dev gettext libz-dev libssl-dev build-essential autoconf
+
+# Fetch and build Git
+cd /tmp
+curl -L --progress https://github.com/git/git/archive/v2.13.1.tar.gz | tar xz
+cd git-2.13.1/
+make configure
+./configure
+make prefix=/usr/local all
+make prefix=/usr/local install
+
+# Confirm this command returns /usr/local/bin/git:
+which git
+```
 
 # Install Node.js
 Install the LTS version of Node.js:
 
-```bash
+```sh
 curl -sL https://deb.nodesource.com/setup_6.x | bash -
 apt-get install -y nodejs
 ```
