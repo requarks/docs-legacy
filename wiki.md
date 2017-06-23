@@ -18,7 +18,7 @@
 
 # Admin Guide
 - [Manage Users](/wiki/admin-guide/manage-users)
-- [Manage Access Rights](/wiki/admin-guide/manage-access-rights)
+- [Manage Access Rights](/wiki/admin-guide/manage-access-rights)  
 
 - [Setup NGINX reverse proxy](/wiki/admin-guide/setup-nginx)
 
