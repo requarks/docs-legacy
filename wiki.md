@@ -21,7 +21,7 @@
 - [Manage Access Rights](/wiki/admin-guide/manage-access-rights)  
 - [Setup NGINX reverse proxy](/wiki/admin-guide/setup-nginx)
 
-## Install on OS
+## OS Installation Guides
 - [Install Wiki.js on Debian 8](/wiki/admin-guide/install-debian-8)
 # User Guide
 - [Change Account Password](/wiki/user-guide/change-password)
