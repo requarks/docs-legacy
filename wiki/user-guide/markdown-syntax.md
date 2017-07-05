@@ -82,6 +82,28 @@ Which results in:
 ---
 
 Always put an empty line above the horizontal rule. Otherwise, Markdown will consider the above line as an header (this is an alternate behavior of Markdown).
+
+# Footnotes
+You can easily add footnote references using the `[^x]` syntax (where `x` is a number or name):
+
+```markdown
+Here is a footnote reference,[^1] and another.[^longnote]
+
+[^1]: Here is the footnote.
+
+[^longnote]: Here's one with multiple blocks.
+
+    Subsequent paragraphs are indented to show that they
+belong to the previous footnote.
+```
+
+You can also inline footnotes directly:
+
+```markdown
+Here is an inline note.^[Inlines notes are easier to write, since
+you don't have to pick an identifier and move down to type the
+note.]
+```
 # Line breaks
 Markdown does not handle line breaks the same way most editors do. There're a few differences to be aware of:
 
