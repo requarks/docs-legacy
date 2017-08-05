@@ -53,6 +53,5 @@ apt-get install -y nodejs
 1. Login as the wiki user: `sudo -i -u wiki`
 2. Create a folder to install Wiki.js: `mkdir wiki`
 3. Go inside the folder: `cd wiki`
-4. Install Wiki.js: `npm install wiki.js@latest`
-5. When prompted, select to run the configuration wizard on port 3000.
-6. From a web browser, browse to your server IP on port 3000 to complete the installation.
+4. Install Wiki.js: `curl -o- https://wiki.js.org/install.sh | bash`
+5. Follow the instructions to complete the installation.
