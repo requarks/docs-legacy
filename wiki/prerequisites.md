@@ -22,7 +22,7 @@ Wiki.js runs on pretty much any platform that supports the requirements below. H
 
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
 
-:information_source: **Node.js** `6.9.0` **or later is required.**
+:information_source: **Node.js** `6.11.1` **or later is required.**
 
 - [Official Website](https://nodejs.org/)
 - [Installation using the package manager (Linux)](https://nodejs.org/en/download/package-manager/)
