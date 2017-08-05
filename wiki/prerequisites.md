@@ -72,7 +72,6 @@ The following modern browsers are supported:
 
 > :no_entry_sign: **Unsupported Browsers**
 > 
-> - For evergreen browsers listed above (aka auto-updating browsers), only the latest version is tested.
-> - Internet Explorer 10 is not supported, but if a bug specific to this browser can **easily** be fixed, it will be considered.
-> - Internet Explorer 9 and below are not supported. Wiki.js makes heavy use of the latest HTML / CSS / JS standards, which simply doesn't work in these browsers.
+> - For evergreen browsers listed above (aka auto-updating browsers), only the latest version is supported.
+> - Internet Explorer 10 and below are not supported. Wiki.js makes heavy use of the latest HTML / CSS / JS standards, which simply doesn't work in these browsers. They are also deprecated and no longer supported by Microsoft.
 {.is-danger}
