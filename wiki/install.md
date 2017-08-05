@@ -5,31 +5,33 @@
 Make sure you have read the [prerequisites](/wiki/prerequisites) page to ensure your server meets the minimum requirements.
 
 # Installation
+## Linux / macOS
 **Create an empty folder** where Wiki.js should be installed.
 
-From this folder, in a command prompt, **run** the following command (exactly as displayed):
+From this folder, in a command prompt, **run** the following command:
 ```bash
-npm install wiki.js@latest
+curl -o- https://wiki.js.org/install.sh | bash
 ```
+Wiki.js will be installed in the current directory.
 
-**Wait** for the installation to complete. If you see any error(s) in red, make sure you fix them first. Wiki.js will most likely crash or refuse to start if all dependencies are not properly installed. Note that you can safely ignore warnings (in yellow).
+## Windows
+**Create an empty folder** where Wiki.js should be installed.
 
-> **Behind a proxy?**
-> 
-> No problem. You can download the `wiki-js.tar.gz` file directly from the [GitHub Releases](https://github.com/Requarks/wiki/releases) and place the archive to the root of the folder where Wiki.js should be installed (do not extract!). Then run the command above to complete the installation. The install script will use the local archive instead of downloading it from the internet.
-> 
-> Note that you must have preconfigured npm to use your proxy first, as dependencies are still fetching from the internet.
+From this folder, in a powershell prompt, **run** the following command:
+```powershell
+iex ((New-Object System.Net.WebClient).DownloadString('https://wiki.js.org/install.ps1'))
+```
+Wiki.js will be installed in the current directory.
 
-> **Yarn**
-> 
-> Do not install Wiki.js using yarn. Installation progress will not be displayed correctly and you may not be able to use the interactive selection screen at the end of the installation process.
-{.is-warning}
-
+> **Execution Policy**
+>
+> Your powershell execution policy must be set to Bypass to allow this script to run:
+> `Set-ExecutionPolicy Bypass`
+{.is-info}
 # Configuration
-Once the installation is completed, you'll be prompted to run the configuration wizard. Use the arrow keys to choose the desired port on which to run the configuration wizard. By default, port 3000 will be used.
+Once the installation is completed, you'll be prompted to run the configuration wizard.
 
-> If using a non-interactive terminal, you'll need to start the configuration wizard manually by running the command `node wiki configure`.  
-> To use a custom port, use the following command: `node wiki configure 1234` where 1234 is the custom port.
+Start the configuration wizard by running the command `node wiki configure`.  To use a custom port, use the following command: `node wiki configure 1234` where 1234 is the custom port.
 
 Using your web browser, navigate to http://localhost:3000/ (replace `localhost` with the IP of your server / custom port if applicable) and follow the on-screen instructions.
 
@@ -89,3 +91,14 @@ node wiki -V
 # On Windows, if using a Powershell prompt, you can instead use the following syntax:
 .\wiki -V
 ```
+
+# Troubleshooting
+## Manual Installation
+
+If you cannot use the above installation methods, you can manually install Wiki.js:
+
+1. Download the `wiki-js.tar.gz` and `node_modules.tar.gz` files directly from the [GitHub Releases](https://github.com/Requarks/wiki/releases).
+2. Extract `wiki-js.tar.gz` to the location of your choice.
+3. Extract `node_modules.tar.gz` in a folder named `node_modules` in the same folder where you extracted the `wiki-js.tar.gz` package.
+4. Rename the file `config.sample.yml` to `config.yml`
+5. See steps above to configure and run Wiki.js.
