@@ -15,7 +15,7 @@ curl -o- https://wiki.js.org/install.sh | bash
 Wiki.js will be installed in the current directory.
 
 ## Windows
-From a **powershell** prompt, **run** the following command:
+From a **PowerShell** prompt, **run** the following command:
 ```powershell
 iex ((New-Object System.Net.WebClient).DownloadString('https://wiki.js.org/install.ps1'))
 ```
