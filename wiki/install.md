@@ -26,6 +26,14 @@ You'll be prompted where Wiki.js should be installed. The destination folder wil
 > Your powershell execution policy must be set to Bypass to allow this script to run:
 > `Set-ExecutionPolicy Bypass`
 {.is-info}
+
+## Alternative NPM method
+It is also possible to install Wiki.js via npm (all platforms).
+The npm script will simply call the commands above depending on your OS.
+
+```bash
+npm install wiki.js@latest
+```
 # Configuration
 Once the installation is completed, you'll be prompted to run the configuration wizard.
 
