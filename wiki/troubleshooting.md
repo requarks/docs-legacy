@@ -40,3 +40,8 @@ sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-po
 **Cause**: Another program is already listening to this port or an orphaned Wiki.js process was not closed properly.
 
 **Solutions**: Make sure there are no orphaned Wiki.js process still running (look for **node** instances on Linux and **node.exe** processes on Windows). Look for applications that could be using this port (web servers, http applications, etc.)
+
+# Weird display, no styling
+**Cause**: The value you entered for the `host` config parameter is wrong.
+
+**Solution**: This value should correspond to the host/domain users are using to access your wiki, **including the port if different than 80 / 443**.
