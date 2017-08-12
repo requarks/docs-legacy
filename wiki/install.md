@@ -10,7 +10,7 @@ Make sure you have read the [prerequisites](/wiki/prerequisites) page to ensure 
 
 From this folder, in a command prompt, **run** the following command:
 ```bash
-curl -o- https://wiki.js.org/install.sh | bash
+curl -sSo- https://wiki.js.org/install.sh | bash
 ```
 Wiki.js will be installed in the current directory.
 
