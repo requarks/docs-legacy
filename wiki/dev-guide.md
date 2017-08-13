@@ -34,12 +34,9 @@ Make sure you have installed all dependencies and created the `config.yml` file 
 	- **views**: Contains the view templates for pages, in Pug format.
 - **test**: The linting and unit test files
 - **tools**: Build and CI scripts / tools
+- **wiki.js**: Main entry point, which runs the main server or configure (setup wizard) process depending on the provided arguments.
 
 \* Not included in source code. These folders are generated automatically on first-time run.
-
-## Root files
-
-- **wiki.js**: Main entry point, which runs the main server or configure (setup wizard) process depending on the provided arguments.
 
 # Requirements
 - Node.js native compilation dependencies
