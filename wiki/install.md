@@ -57,21 +57,13 @@ To start Wiki.js manually, in a command prompt, **run** the following command: `
 ### Stop Wiki.js
 To stop Wiki.js, run the command: 
 ```bash
-# On Linux, Mac and Windows running a terminal / traditional command prompt:
 node wiki stop
-
-# On Windows, if using a Powershell prompt, you can instead use the following syntax:
-.\wiki stop
 ```
 
 ### Restart Wiki.js
 To restart Wiki.js, run the command: 
 ```bash
-# On Linux, Mac and Windows running a terminal / traditional command prompt:
 node wiki restart
-
-# On Windows, if using a Powershell prompt, you can instead use the following syntax:
-.\wiki restart
 ```
 
 ### Run at startup
@@ -91,11 +83,7 @@ By default, Wiki.js will not start automatically following a system reboot. In o
 ### View installed version
 To view the currently installed version, run the command:  
 ```bash
-# On Linux, Mac and Windows running a terminal / traditional command prompt:
 node wiki -V
-
-# On Windows, if using a Powershell prompt, you can instead use the following syntax:
-.\wiki -V
 ```
 
 # Troubleshooting
