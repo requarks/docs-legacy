@@ -5,8 +5,6 @@
 # Getting Started
 It is highly recommended to download the source code from a published release and **not** from the master branch directly.
 
-*Until the final 1.0 release, the master branch may contain unstable code that prevents build / running the app completely.*
-
 You can find the latest release source code on the [GitHub Releases](https://github.com/Requarks/wiki/releases) page. Use either the `Source code (zip)` or `Source code (tar.gz)` file.
 
 Make sure you have installed all dependencies and created the `config.yml` file (or run the setup wizard to generate it).
@@ -22,7 +20,7 @@ Make sure you have installed all dependencies and created the `config.yml` file 
 	- **temp-upload**: Temporary uploads being uploaded / processed.
 	- **thumbs**: Image upload thumbnails.
 - **logs** \*: Contains the server process output and error logs.
-- **npm**: Contains the installation scripts to download and install Wiki.js.
+- **npm**: Contains the installation scripts to download and install Wiki.js. *(deprecated)*
 - **repo** \*: The git repository containing pages and uploads.
 - **server**: Contains server files
 	- **app**: Contains app date and configuration that shouldn't be modified by the user.
@@ -35,21 +33,21 @@ Make sure you have installed all dependencies and created the `config.yml` file 
 	- **models**: Contains the database models for MongoDB.
 	- **views**: Contains the view templates for pages, in Pug format.
 - **test**: The linting and unit test files
+- **tools**: Build and CI scripts / tools
 
 \* Not included in source code. These folders are generated automatically on first-time run.
 
 ## Root files
 
-- **fuse.js**: Build, compilation and dev server scripts.
 - **wiki.js**: Main entry point, which runs the main server or configure (setup wizard) process depending on the provided arguments.
+
+# Requirements
+- Node.js native compilation dependencies
+- Yarn
 # Compile client assets
 To compile all client assets:
 
 ```bash
-# Using npm:
-npm run build
-
-# Using yarn:
 yarn run build
 ```
 
@@ -64,20 +62,12 @@ Running Wiki.js in development mode has the following extra features over produc
 Start Wiki.js in development mode (using port defined in `config.yml`):
 
 ```bash
-# Using npm:
-npm run dev
-
-# Using yarn:
 yarn run dev
 ```
 
 Start Wiki.js setup wizard in development mode (using port `3000`):
 
 ```bash
-# Using npm:
-npm run dev-configure
-
-# Using yarn:
 yarn run dev-configure
 ```
 
@@ -85,9 +75,5 @@ yarn run dev-configure
 To run linting and unit tests:
 
 ```bash
-# Using npm:
-npm test
-
-# Using yarn:
 yarn test
 ```
