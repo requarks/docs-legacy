@@ -1,7 +1,8 @@
 <!-- TITLE: Using the Docker image -->
 <!-- SUBTITLE: How to use the Docker image directly -->
 
-# Prerequesites
+This is the most direct and simple way to run a Docker container of Wiki.js. For more control and flexibility over its configuration, check out the [Dockerfile](/wiki/docker/dockerfile) and [Docker Compose](/wiki/docker/compose) guides.
+# Prerequisites
 - Docker
 - A MongoDB database server (either running inside another container or on a remote machine)
 # Create config file
