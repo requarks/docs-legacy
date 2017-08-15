@@ -94,9 +94,15 @@ Images can be inserted in almost the same way as links. They simply require an e
 ![Image Caption](http://link.to/image.jpg)
 ```
 # Code
+## Inline
+Inline code provide a quick way to insert `code / commands` without creating a standalone code block. They are enclosed by a single back-tick:
 
+```
+`This is an inline code`
+```
+## Block
 # Tables
-
+*Coming soon*
 # Blockquotes
 Blockquotes are explained in details in the [Editor Blockquotes](https://docs.wiki.requarks.io/user-guide/blockquotes) page.
 
