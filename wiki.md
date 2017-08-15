@@ -18,8 +18,8 @@
 
 ## Docker
 - [Using the Docker image](/wiki/docker)
-- [Using a Dockerfile](/wiki/docker/dockerfile)
-- [Using Docker Compose](/wiki/docker/compose)
+	- [Using a Dockerfile](/wiki/docker/dockerfile)
+	- [Using Docker Compose](/wiki/docker/compose)
 
 ## Step by Step Guides
 - [Install Wiki.js on Debian 8](/wiki/admin-guide/install-debian-8)
