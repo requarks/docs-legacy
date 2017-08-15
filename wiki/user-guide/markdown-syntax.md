@@ -79,8 +79,20 @@ Ordered lists can be defined using numbers:
 
 Note that ordered lists are automatically incremented. You can therefore use `1.` for all items.
 # Links
-# Images
+Links to other page or external webpages are defined using the following syntax:
 
+```markdown
+[Internal Link Title](/path/to/page)
+[External Link Title](https://www.google.com/)
+```
+
+A special icon is automatically displayed next to external links to denote the user will leave the site if clicked.
+# Images
+Images can be inserted in almost the same way as links. They simply require an extra `!` at the beginning:
+
+```
+![Image Caption](http://link.to/image.jpg)
+```
 # Code
 
 # Tables
