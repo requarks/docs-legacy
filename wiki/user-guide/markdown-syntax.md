@@ -63,7 +63,21 @@ Etc...
 In the above example, Section A and B are top level headers and Section A has a sub-header (A.1), which contains a sub-header (A.1.1).
 
 # Lists
+Unordered lists can be defined using a dash at the beginning of every line:
+```markdown
+- Item 1
+- Item 2
+- Item 3
+```
 
+Ordered lists can be defined using numbers:
+```markdown
+1. Item
+2. Item
+3. Item
+```
+
+Note that ordered lists are automatically incremented. You can therefore use `1.` for all items.
 # Links
 # Images
 
