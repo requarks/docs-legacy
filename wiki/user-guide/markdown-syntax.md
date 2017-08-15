@@ -101,6 +101,17 @@ Inline code provide a quick way to insert `code / commands` without creating a s
 `This is an inline code`
 ```
 ## Block
+If your code requires multiple lines or you need syntax highlighting, it is preferrable to use code blocks. They are enclosed by triple backticks:
+
+```markdown
+```
+var sample = 'code';
+
+on.multiple(lines) {
+	cool();
+}
+```
+```
 # Tables
 *Coming soon*
 # Blockquotes
