@@ -61,7 +61,19 @@ google:
 # Facebook
 The Facebook provider lets users login using their own Facebook account.
 
-*Documentation coming soon*
+1. Go to https://developers.facebook.com
+2. Choose 'Add a New App'
+3. Your app id should be clearly visible on the top of the page. To get your app secret, go to the 'Dashboard' and click 'Show' next to the starred-out secret
+4. You can now test logging in with your own account and users you explicitly give access. To open up logging in via your app to everyone, make your app 'public' under 'App Review'.
+
+Under the auth section of your config.yml, you can now enter the required info:
+
+```yaml
+facebook:
+  enabled: true
+  clientId: YOUR_FACEBOOK_APP_ID
+  clientSecret: YOUR_FACEBOOK_APP_SECRET
+```
 
 # GitHub
 The GitHub provider lets users login using their own GitHub account.
