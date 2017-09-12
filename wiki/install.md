@@ -96,3 +96,6 @@ If you cannot use the above installation methods, you can manually install Wiki.
 3. Extract `node_modules.tar.gz` in a folder named `node_modules` in the same folder where you extracted the `wiki-js.tar.gz` package.
 4. Rename the file `config.sample.yml` to `config.yml`
 5. See steps above to configure and run Wiki.js.
+
+## More
+View more troubleshooting options [here](/wiki/troubleshooting#wiki-js-wont-start).
