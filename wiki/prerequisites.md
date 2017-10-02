@@ -17,6 +17,10 @@ Wiki.js runs on pretty much any platform that supports the requirements below. H
 
 **Disk Space:** Wiki.js requires about 300MB of disk space when including the dependencies. The actual total space needed for your installation depends on the content and most importantly, the uploads. A wiki with only text content will only use a few megabytes, even for thousands of articles. However, if you start adding images, documents, videos, etc., you must plan required disk space accordingly.
 
+## Recommended cloud providers
+- [Vultr](https://www.vultr.com/?ref=7175356)
+- [DigitalOcean](https://m.do.co/c/5f7445bfa4d0)
+
 # Software
 ## Node.js
 
