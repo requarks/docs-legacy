@@ -23,7 +23,7 @@ Wiki.js offers various authentication providers that you can enable. See the [au
 
 | Property            | Required | Description                                                                                                                          |   Default Value  |
 |---------------------|:--------:|--------------------------------------------------------------------------------------------------------------------------------------|:----------------:|
-| **public**          | yes      | Should the wiki be accessible publicly without a login. Set to false to require all users to login before accessing any wiki content. | false |
+| **public**          | yes      | Should the wiki be accessible publicly without a login. If set to true, creates a Guest user whose access can be configured in the Users Settings. Set to false to require all users to login before accessing any wiki content. | false |
 | **defaultReadAccess**          | yes      | Should users that logged in using a social authentication provider have read-only access by default. | false |
 | **auth.local.enabled**          | no | Enable the local authentication provider. | true |
 | **auth.google.enabled**         | no | Enable the Google authentication provider | false |
