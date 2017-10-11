@@ -110,6 +110,9 @@ The Slack provider lets users login using their own Slack account.
 10. Take note of the **Client ID** and **Client Secret** shown under **App Credentials**.
 11. (optional) Upload a logo and customize the look and description of your app.
 
+> :warning: Quote your slack client ID otherwise it will be treated as float instead as a string and this will cut it off.
+{.is-warning}
+
 Under the auth section of your config.yml, you can now enter the required info:
 
 ```yaml
