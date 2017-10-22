@@ -8,6 +8,7 @@
 1) Create a copy of the [sample config file](https://github.com/Requarks/wiki/blob/master/config.sample.yml) on your host.
 2) Modify the config file with your own settings.
 
+Make sure to set the `db` parameter to point to the mongo container. In the example docker compose file, the mongo container is named `wikidb`. As such, the `db` connection string should be set to: `mongodb://wikidb:27017/wiki`
 # Create Docker Compose file
 1) Create a copy of the [sample Docker Compose](https://github.com/Requarks/wiki/blob/master/tools/docker-compose.yml) file.
 2) Change the `ports` port to match the port entered in your config.yml file.
