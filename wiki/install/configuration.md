@@ -5,7 +5,8 @@
 The configuration file is automatically generated for you during the Configuration Wizard.  
 You may however change settings or additional options not shown during the wizard, based on the list below.
 
-The configuration file is located at the root, named `config.yml`. **Note that any changes will not be applied until Wiki.js is restarted**.
+The configuration file is located at the root, named `config.yml`. Environment variables can be used to set property values with the syntax `$(ENV_VAR_NAME)`. **Note that any changes will not be applied until Wiki.js is restarted**.
+
 # General Site Settings
 
 | Property            | Required | Description                                                                                                                          |   Default Value  |
