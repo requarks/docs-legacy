@@ -42,5 +42,5 @@ You can also use an **environment variable** containing the MongoDB connection s
 **A username/password protected instance on a single remote server:**  
 `mongodb://username:password@remote.server.com:27017/wiki`
 
-**A usernane/password protected instance on a remote cluster:**  
+**A username/password protected instance on a remote cluster:**  
 `mongodb://username:password@first.server.com:27017,second.server.com:27017,third.server.com:27017/wiki`
