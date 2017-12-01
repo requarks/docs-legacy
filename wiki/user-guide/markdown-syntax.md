@@ -18,7 +18,7 @@ To make a text in italic, simply put a single asterisk `*` before and after the 
 
 ## Strikethrough
 
-To make a text in italic, simply put double tildes `~~` before and after the desired text:
+To make a text in strikethrough, simply put double tildes `~~` before and after the desired text:
 
 `Something ~~not cool~~` :arrow_right: Something ~~not cool~~
 
