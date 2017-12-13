@@ -147,17 +147,29 @@ The Azure AD provider lets users login using their Azure Active Directory (AAD) 
 
 This provider is only for Azure AD, it is **not** compatible with LDAP / classic Active Directory. Use the **LDAP (Active Directory)** provider instead.
 
-Under the auth section of your `config.yml`, enter the required info:
+1. Login to your [Azure AD Portal.](https://portal.azure.com)
+2. Click on **Azure Active Directory**.
+3. On the left menu bar, select **App Registrations**.
+4. Create a new application integration with **New application registration**.
+5. Name it something useful like *Wiki* and make sure the application type is *Web app / API*. 
+6. Your *Sign-on URL* will be the full domain of your Wiki followed by `/login/azure/callback`.
+	e.g `https://portal.example.com/login/azure/callback`
+7. Click **Create**.
+8. You will then see your application in the **App registrations** menu. Click on it.
+9. The *Application ID* will be given to you. Add this to your `config.yml` as *clientId*.
+10. A private app key will need to be generated now. Under **Settings** there will be a **Keys** option. Click on that. There should be no keys present. Write in a description for the key in **Key Description** and set a **Duration**. Something like *wiki_priv* and *Never expires* is fine. 
+11. Click **Save**. Your private key will now be generated. Copy the key's value and add it to *clientSecret* in your `config.yml`. Be careful to note this down as this will be the only time that you see it. 
+12. Make sure that in **Reply URLs** it contains your `https://portal.example.com/login/azure/callback` or the integration won't work. You must be using SSL on your Wiki site for Microsoft to allow the API integration. 
+13. Check to make sure that correct permissions have been granted. Under the App Registration **Settings**, select the **Required Permissions** option. Select the *Windows Azure Active Directory* object. From here, make sure that *Sign in and read user profile* under **Delegated Permissions** is ticked.  
+14. Your tenant ID is your `example.onmicrosoft.com`. Note: your regular domain `example.com` will not work here as it needs to be the Microsoft Azure AD name. Alternatively, you can find your tenant ID string via **Azure Active Directory** -> **Properties** -> **Directory ID**.
 
 ```yaml
 azure:
-	enabled: false
-	identityMetadata: METADATA_ENDPOINT_URL
-	clientID: AZURE_AD_CLIENT_ID
-	validateIssuer: true
-	issuer: ISSUER_IF_COMMON_ENDPOINT
-	isB2C: false
-	policyName: B2C_1_POLICY_NAME
-	allowMultiAudiencesInToken: true
-	audience: AZURE_AD_CLIENT_ID
-	clockSkew: 300
+	enabled: true
+	clientId: YOUR_CLIENT_ID
+	clientSecret: YOUR_CLIENT_SECRET
+	resource: '00000002-0000-0000-c000-000000000000'
+	tenant: YOUR_TENANT_ID_OR_AD_DOMAIN
+```
+
+Note: If you are receiving a *User Email Not Found* error from Wiki.js after trying to login with your Azure AD Credentials, this is a known bug and being worked on. The bug is described [here](https://github.com/Requarks/wiki/issues/307) and a solution is provided in the thread. 
