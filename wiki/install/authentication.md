@@ -142,6 +142,8 @@ The `searchFilter` option has a variable `{{username}}` which contains the value
 
 For Active Directory, you should usually use the `samaccountname` in the `searchFilter`, e.g.: `(samaccountname={{username}})`
 
+The user must have an email address associated with the account, or sign in will fail. This holds true regardless of `searchFilter` configuration.
+
 # Azure Active Directory
 The Azure AD provider lets users login using their Azure Active Directory (AAD) account.
 
