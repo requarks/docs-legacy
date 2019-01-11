@@ -17,7 +17,7 @@ Wiki.js will be installed in the current directory.
 ## Windows
 From a **PowerShell** prompt, **run** the following command:
 ```powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://wiki.js.org/install.ps1'))
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; iex ((New-Object System.Net.WebClient).DownloadString('https://wiki.js.org/install.ps1'))
 ```
 You'll be prompted where Wiki.js should be installed. The destination folder will be created automatically if it doesn't exist.
 
