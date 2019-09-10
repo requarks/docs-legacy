@@ -6,11 +6,11 @@
 - A MongoDB database server (either running inside another container or on a remote machine)
 
 # Create config file
-1) Create a copy of the [sample config file](https://github.com/Requarks/wiki/blob/master/config.sample.yml) on your host.
+1) Create a copy of the [sample config file](https://github.com/Requarks/wiki-v1/blob/master/config.sample.yml) on your host.
 2) Modify the config file with your own settings.
 
 # Create Dockerfile
-1) Create a copy of the [sample Dockerfile](https://github.com/Requarks/wiki/blob/master/tools/Dockerfile).
+1) Create a copy of the [sample Dockerfile](https://github.com/Requarks/wiki-v1/blob/master/tools/Dockerfile).
 2) Replace the `WIKI_ADMIN_EMAIL` parameter value with the email of the administrator account. This account will be created when run the first time.
 3) Replace the `your-config.yml` value with the name of your config file created earlier. This file must be located in the same folder as your Dockerfile if not providing the full path. It will be copied inside your docker container.
 4) Change the `EXPOSE` port to match the port entered in your config.yml file.
