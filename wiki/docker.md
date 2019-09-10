@@ -6,7 +6,7 @@ This is the most direct and simple way to run a Docker container of Wiki.js. For
 - Docker
 - A MongoDB database server (either running inside another container or on a remote machine)
 # Create config file
-1) Create a copy of the [sample config file](https://github.com/Requarks/wiki/blob/master/config.sample.yml) on your host.
+1) Create a copy of the [sample config file](https://github.com/Requarks/wiki-v1/blob/master/config.sample.yml) on your host.
 2) Modify the config file with your own settings.
 # Install
 ## Fetch image
