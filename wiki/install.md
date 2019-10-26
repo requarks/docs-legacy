@@ -27,15 +27,6 @@ You'll be prompted where Wiki.js should be installed. The destination folder wil
 > `Set-ExecutionPolicy Bypass`
 {.is-info}
 
-## Alternative NPM method (deprecated)
-It is also possible to install Wiki.js via npm (all platforms).
-The npm script will simply call the commands above depending on your OS.
-
-**This installation method is deprecated. Please use the methods above to install or upgrade going forward.**
-
-```bash
-npm install wiki.js@latest
-```
 # Configuration
 Once the installation is completed, you'll be prompted to run the configuration wizard.
 
