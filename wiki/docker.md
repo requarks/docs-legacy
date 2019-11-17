@@ -12,7 +12,7 @@ This is the most direct and simple way to run a Docker container of Wiki.js. For
 ## Fetch image
 
 ```bash
-sudo docker pull requarks/wiki
+sudo docker pull requarks/wiki:1.0
 ```
 ## Run container
 You must provide 3 parameters when running a Wiki.js container:
@@ -24,7 +24,7 @@ You must provide 3 parameters when running a Wiki.js container:
 Adapt the example command below:
 
 ```bash
-sudo docker run -p 8080:3000 -e "WIKI_ADMIN_EMAIL=admin@example.com" -v /home/bob/wiki-config.yml:/var/wiki/config.yml requarks/wiki
+sudo docker run -p 8080:3000 -e "WIKI_ADMIN_EMAIL=admin@example.com" -v /home/bob/wiki-config.yml:/var/wiki/config.yml requarks/wiki:1.0
 ```
 
 In the example above, the port `3000` is the port defined in your config.yml, while `8080` is the port that is exposed publicly.
