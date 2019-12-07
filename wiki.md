@@ -2,9 +2,8 @@
 <!-- SUBTITLE: Documentation on installing, managing and using Wiki.js -->
 ![Wiki.js](/uploads/page-icons/logo.png "Logo"){.pagelogo}
 # Overview
-- [Homepage](https://wiki.requarks.io/)
-- [Features](https://wiki.requarks.io/#features)
-- [Changelog](https://github.com/Requarks/wiki/blob/master/CHANGELOG.md)
+- [Homepage](https://wiki.js.org/)
+- [Changelog](https://github.com/Requarks/wiki-v1/blob/master/CHANGELOG.md)
 
 # Installation
 - [Prerequisites](/wiki/prerequisites)
