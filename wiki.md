@@ -22,7 +22,6 @@
 
 ## Step by Step Guides
 - [Install Wiki.js on Debian 8](/wiki/admin-guide/install-debian-8)
-- Install Wiki.js on Ubuntu 16.04 *(Coming soon)*
 
 # Admin Guide
 - [Manage Users](/wiki/admin-guide/manage-users)
