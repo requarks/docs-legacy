@@ -10,14 +10,14 @@ Make sure you have read the [prerequisites](/wiki/prerequisites) page to ensure 
 
 From this folder, in a command prompt, **run** the following command:
 ```bash
-curl -sSo- https://wiki.js.org/install.sh | bash
+curl -sSo- https://js.wiki/install.sh | bash
 ```
 Wiki.js will be installed in the current directory.
 
 ## Windows
 From a **PowerShell** prompt, **run** the following command:
 ```powershell
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; iex ((New-Object System.Net.WebClient).DownloadString('https://wiki.js.org/install.ps1'))
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; iex ((New-Object System.Net.WebClient).DownloadString('https://js.wiki/install.ps1'))
 ```
 You'll be prompted where Wiki.js should be installed. The destination folder will be created automatically if it doesn't exist.
 
