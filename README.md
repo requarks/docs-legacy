@@ -1,4 +1,3 @@
-# Docs
-Documentation repository for Wiki.js.
+# Wiki.js v1 Docs
 
-View [full site](https://docs.requarks.io/) instead.
+Documentation archive for the legacy Wiki.js v1.
