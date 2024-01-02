@@ -72,6 +72,7 @@ By default, Wiki.js will not start automatically following a system reboot. In o
 		- Run the command: `npm install pm2-windows-startup -g`
 		- Once finished, run the command: `pm2-startup install`
 3. Finally, **save the current pm2 configuration** by running the command: `pm2 save`
+	- ensure that wiki.js is [running](/wiki/install.md#run-wikijs), so that pm2 includes this in the process list 
 
 ### View installed version
 To view the currently installed version, run the command:  
