@@ -63,8 +63,11 @@ The Facebook provider lets users login using their own Facebook account.
 
 1. Go to https://developers.facebook.com
 2. Choose 'Add a New App'
-3. Your app id should be clearly visible on the top of the page. To get your app secret, go to the 'Dashboard' and click 'Show' next to the starred-out secret
-4. You can now test logging in with your own account and users you explicitly give access. To open up logging in via your app to everyone, make your app 'public' under 'App Review'.
+3. Choose 'Facebook Login' under 'Select a product'
+4. Add a Website platform with the URL of your wiki as the 'Site URL' (e.g. `http://www.example.com`)
+5. Under the Facebook Login Settings, enter the 'Valid OAuth redirect URIs' (full URL of your wiki followed by `/login/facebook/callback` as e.g.: `http://www.example.com/login/facebook/callback`)
+6. To explicitly give users access to the app for testing purposes, click on 'Roles' and add Facebook users. To open up logging in via your app to everyone, make your app 'public' under 'App Review'.
+7. Your app id should be clearly visible on the top of the page. To get your app secret, go to the 'Dashboard' and click 'Show' next to the starred-out secret
 
 Under the auth section of your config.yml, you can now enter the required info:
 
